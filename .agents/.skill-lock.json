@@ -625,6 +625,24 @@
       "skillFolderHash": "397eefaef8aec083473ed2a007696473df8d7fe6",
       "installedAt": "2026-05-08T02:42:12.228Z",
       "updatedAt": "2026-05-08T02:42:12.228Z"
+    },
+    "clean-code": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/sickn33/antigravity-awesome-skills.git",
+      "skillPath": "skills/clean-code/SKILL.md",
+      "skillFolderHash": "f7e9ebffd5608df6b3ab00e0b0375d693215a409",
+      "installedAt": "2026-05-08T18:12:09.761Z",
+      "updatedAt": "2026-05-08T18:12:09.761Z"
+    },
+    "software-architecture": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/sickn33/antigravity-awesome-skills.git",
+      "skillPath": "skills/software-architecture/SKILL.md",
+      "skillFolderHash": "327e1d67564abbcaa6b38ca4a429866f02cf4648",
+      "installedAt": "2026-05-08T18:12:24.408Z",
+      "updatedAt": "2026-05-08T18:12:24.408Z"
     }
   },
   "dismissed": {
