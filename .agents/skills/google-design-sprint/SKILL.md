@@ -32,7 +32,7 @@ For the current phase, provide the user with:
 - **The Goal**: Briefly state what needs to be achieved in this phase.
 - **Method Options**: Suggest 2-4 methods that fit the user's phase and constraints. Use `references/method-options.md` for the complete method catalogue.
 - **Recommended Sequence**: Recommend the best method or sequence and explain why it fits.
-- **Facilitation Steps**: Detail the next method only (timebox, format, participant actions). Recommend common physical materials or popular digital platforms to facilitate the activity. You may suggest using your own available tools to execute the step for the user, but you must act as a co-creator. Never run on autopilot—prompt the user for input on every decision to ensure continuous stakeholder alignment.
+- **Facilitation Steps**: Detail the next method only (timebox, format, participant actions). Recommend common physical materials or popular digital platforms to facilitate the activity. You may suggest acting as a teammate, using your own available tools to execute the steps. Never run on autopilot — prompt the user for input on every decision to ensure continuous stakeholder alignment.
 - **Deliverable**: What the tangible output of this phase should be according to the chosen methods before moving to the next.
 
 ### 3. Iteration and Progress
