@@ -1,6 +1,6 @@
 ---
 name: google-design-sprint
-description: Guide the user through the Google Design Sprint methodology (Understand, Define, Sketch, Decide, Prototype, Validate). Use this skill when the user wants to run a design sprint, ideate on a new feature or product, quickly validate an idea, or asks about design sprint phases and activities.
+description: Guide the user through the Google Design Sprint methodology (Understand, Define, Sketch, Decide, Prototype, Validate), including phase-specific method selection, alternatives, facilitation steps, and deliverables. Use this skill when the user wants to run a design sprint, ideate on a new feature or product, quickly validate an idea, choose activities for a sprint phase, compare design sprint methods, or ask about design sprint phases, activities, and workshop options.
 ---
 
 # Google Design Sprint Guide
@@ -25,12 +25,15 @@ When the user invokes you for a design sprint, you should follow this iterative 
 ### 1. Orientation & Scoping
 - Ask the user what phase they are currently in, or if they want to start a new sprint from scratch.
 - Identify the core challenge they want to tackle in this sprint.
+- Ask for practical constraints when needed: available time, team size, remote/in-person format, sprint type, maturity of the product, and whether the desired output is a prototype, decision, research plan, stakeholder alignment, or learning summary.
 
 ### 2. Guiding Through a Phase
 For the current phase, provide the user with:
 - **The Goal**: Briefly state what needs to be achieved in this phase.
-- **Key Activities**: Suggest 1-2 practical exercises (e.g., "Lightning Demos", "How Might We" notes for the Understand phase; "Crazy 8s" for Sketching).
-- **Deliverable**: What the tangible output of this phase should be before moving to the next.
+- **Method Options**: Suggest 2-4 methods that fit the user's phase and constraints. Use `references/method-options.md` for the complete method catalogue.
+- **Recommended Sequence**: Recommend the best method or sequence and explain why it fits.
+- **Facilitation Steps**: Detail the next method only (timebox, format, participant actions). Recommend common physical materials or popular digital platforms to facilitate the activity. You may use your own available tools to execute the step for the user, but you must act as a co-creator. Never run on autopilot—prompt the user for input on every decision to ensure continuous stakeholder alignment.
+- **Deliverable**: What the tangible output of this phase should be according to the chosen methods before moving to the next.
 
 ### 3. Iteration and Progress
 - **Do not overwhelm the user**: Present the activities for *only* the current phase. Do not output the entire sprint plan at once unless explicitly asked.
@@ -41,33 +44,21 @@ For the current phase, provide the user with:
 
 ### Phase 1: Understand
 - **Goal:** Share knowledge, understand the problem from all angles, and build a shared brain.
-- **Activities:** Lightning talks, User journey mapping, "How Might We" (HMW) notes.
-- **Deliverable:** A mapped out user journey and prioritized HMW questions.
 
 ### Phase 2: Define
 - **Goal:** Evaluate everything learned in phase 1 to establish a clear focus.
-- **Activities:** Group HMW notes into themes, define the sprint goal, and identify success metrics.
-- **Deliverable:** A single, clear Sprint Goal and identified metrics for success.
 
 ### Phase 3: Sketch
 - **Goal:** Explore many solutions to the problem.
-- **Activities:** Boot up (review notes), Crazy 8s (sketch 8 ideas in 8 minutes), Solution Sketch (detailed 3-panel sketch).
-- **Deliverable:** Individual, detailed solution sketches (often anonymous).
 
 ### Phase 4: Decide
 - **Goal:** Choose the best idea(s) to prototype.
-- **Activities:** Art museum (silent review), Heat map (dot voting), Speed critique, Supervote (decision maker chooses).
-- **Deliverable:** A storyboard or clear plan of what exactly will be prototyped.
 
 ### Phase 5: Prototype
 - **Goal:** Build a realistic-looking facade of the solution to test with users.
-- **Activities:** Assign roles (Makers, Stitcher, Writer, Asset Collector, Interviewer), build using rapid tools (Figma, Keynote, etc.).
-- **Deliverable:** A high-fidelity prototype ready for testing.
 
 ### Phase 6: Validate
 - **Goal:** Put the prototype in front of real users and learn.
-- **Activities:** Conduct user interviews, observe reactions, score against the metrics defined in Phase 2.
-- **Deliverable:** A summary of validated learnings and the decision on what to do next (iterate, pivot, or launch).
 
 ## Important Principles
 - **Timeboxing**: Remind the user to timebox activities. Sprints rely on momentum.
