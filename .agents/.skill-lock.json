@@ -659,9 +659,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/almirmcunhajr/skills.git",
       "skillPath": "skills/google-design-sprint/SKILL.md",
-      "skillFolderHash": "b133f03b8dac76c44e4a16b513b9cca9a1aeb940",
+      "skillFolderHash": "cefdc0dfc89ca6218b8389aa499c3361b1279687",
       "installedAt": "2026-05-09T16:06:01.360Z",
-      "updatedAt": "2026-05-10T15:01:16.573Z"
+      "updatedAt": "2026-05-10T18:22:42.540Z"
     },
     "mermaid-diagrams": {
       "source": "softaworks/agent-toolkit",

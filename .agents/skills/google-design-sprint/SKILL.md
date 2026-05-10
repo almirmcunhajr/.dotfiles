@@ -36,7 +36,7 @@ For each phase, avoid dumping a wall of text. Engage the user collaboratively an
   *   **Phase 2: Define**: `references/methods/2-define/`
   *   **Phase 3: Sketch**: `references/methods/3-sketch/`
   *   **Phase 4: Decide**: `references/methods/4-decide/`
-  *   *Phase 5: Prototype**: `references/methods/5-prototype/`
+  *   **Phase 5: Prototype**: `references/methods/5-prototype/`
   *   **Phase 6: Validate**: `references/methods/6-validate/`
   
   This ensures you have the full context of available options, their requirements, and source status before making a recommendation. Check the `* **Source:**` metadata in each file; **always prioritize "Core Method" techniques** as they are foundational to the methodology, unless the user's specific constraints or goals demand a specialized alternative. Ask for the user's approval on the itinerary before starting.
@@ -54,7 +54,7 @@ For each phase, avoid dumping a wall of text. Engage the user collaboratively an
 
 ## Important Principles
 - **Timeboxing**: Remind the user to timebox activities. Sprints rely on momentum.
-- **Tangible Output**: Push the user to write things down or sketch, rather than just discussing.
+- **Tangible Output & File Naming**: Push the user to write things down or sketch. When creating files or documents as deliverables for sprint methods, you MUST use the following directory and file naming convention: `docs/sprint-<number>/phase-<number>-<name>/<method-deriverable-name>.md` (e.g., `docs/sprint-1/phase-1-understand/user-journey-map.md` or `docs/sprint-1/phase-2-define/business-model-canvas.md`).
 - **Decisiveness & The Decider**: In the Decide phase, ensure a clear decision is made so the Prototype phase isn't bogged down in debate. The "Decider" (stakeholder with decision-making power) plays a crucial role here.
 - **Just Enough Prototyping**: Build only what is needed to get an authentic response from users. Do not over-engineer. The goal is to learn, not launch.
 - **Next Steps**: Remind the user that a sprint is the beginning of a solution. Post-sprint activities involve iterating on the prototype based on user feedback or moving into a production cycle.
