@@ -5,6 +5,7 @@ The Scorecard is a shared Google Sheet that all of your interview observers can 
 * **Time:** 45 mins
 * **Activity:** Individual
 * **Output:** Scorecard with notes, timestamps, and results.
+* **Source:** Voltage Control
 
 ### Directions
 

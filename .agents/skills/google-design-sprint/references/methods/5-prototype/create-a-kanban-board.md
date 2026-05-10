@@ -5,6 +5,7 @@ Use a Kanban board during prototyping so you have a visual overview of all tasks
 * **Time:** 30 mins
 * **Activity:** Group
 * **Output:** Prototype Kanban board.
+* **Source:** Voltage Control
 
 ### Directions
 

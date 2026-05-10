@@ -5,6 +5,7 @@ Lightning Talks are a core Design Sprint method and a powerful opportunity to bu
 * **Time:** 10-15 mins
 * **Activity:** Group
 * **Output:** Shared context and HMW notes.
+* **Source:** Core Method
 
 ### Directions
 

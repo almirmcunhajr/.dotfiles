@@ -5,6 +5,7 @@ Design principles help you align your team on the values that will drive your pr
 * **Time:** 30 mins
 * **Activity:** Group
 * **Output:** Short, specific design principles.
+* **Source:** Core Method
 
 ### Directions
 

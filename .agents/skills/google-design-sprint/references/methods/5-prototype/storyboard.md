@@ -5,6 +5,7 @@ The Storyboard method unifies the entire Design Sprint team on the prototype con
 * **Time:** 60 mins
 * **Activity:** Group
 * **Output:** Storyboard with 4-5 key moments and prototype scope.
+* **Source:** Core Method
 
 ### Directions
 

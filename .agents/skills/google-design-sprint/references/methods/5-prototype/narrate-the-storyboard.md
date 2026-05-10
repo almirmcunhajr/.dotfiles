@@ -5,6 +5,7 @@ The Facilitator begins the prototyping day by narrating the storyboard, while th
 * **Time:** 20 mins
 * **Activity:** Group
 * **Output:** Confirmed storyboard and list of jobs to complete.
+* **Source:** Voltage Control
 
 ### Directions
 

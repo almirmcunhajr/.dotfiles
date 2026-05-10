@@ -5,6 +5,7 @@ Business Question to Human Question, is a technique developed by Sudden CompassÂ
 * **Time:** 20 mins
 * **Activity:** Group
 * **Output:** Prioritized human question and a plan to answer it.
+* **Source:** Sudden CompassÂ®
 
 ### Directions
 

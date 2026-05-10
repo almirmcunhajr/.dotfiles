@@ -5,6 +5,7 @@ Some Design Sprints may include user interviews in the Understand phase to injec
 * **Time:** 30-45 mins
 * **Activity:** Researcher & Participant
 * **Output:** Interview notes and empathy-building evidence.
+* **Source:** Core Method
 
 ### Directions
 

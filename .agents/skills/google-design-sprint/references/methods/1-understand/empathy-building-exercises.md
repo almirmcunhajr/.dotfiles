@@ -5,6 +5,7 @@ Empathy Building Exercises are a Design Sprint method to get the team further in
 * **Time:** 30-50 mins
 * **Activity:** Group
 * **Output:** Observations, pain points, and moments of delight.
+* **Source:** Core Method
 
 ### Directions
 

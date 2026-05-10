@@ -5,6 +5,7 @@ The Comparable Problem method is a great warm up for the Sketch phase of the Des
 * **Time:** Per person: 5 mins
 * **Activity:** Group
 * **Output:** Comparable examples and transferable ideas.
+* **Source:** Core Method
 
 ### Directions
 

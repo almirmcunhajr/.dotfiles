@@ -5,6 +5,7 @@ The "How Might We" or HMW method is an essential Design Sprint methodology. At G
 * **Time:** 5 mins explanation
 * **Activity:** Individual
 * **Output:** Many HMW opportunity notes.
+* **Source:** Core Method
 
 ### Directions
 

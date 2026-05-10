@@ -5,6 +5,7 @@ Importance/Difficulty Matrix is a quad chart for plotting items by relative impo
 * **Time:** 30-60 mins
 * **Activity:** Individual
 * **Output:** Prioritized quadrant map.
+* **Source:** LUMA Institute
 
 ### Directions
 

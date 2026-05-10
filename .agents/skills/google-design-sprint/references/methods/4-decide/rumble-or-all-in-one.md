@@ -5,6 +5,7 @@ The Rumble or All-In-One Design Sprint method is useful when there is more than 
 * **Time:** Variable
 * **Activity:** Group
 * **Output:** Decision to combine into one prototype or run competing prototypes.
+* **Source:** Core Method
 
 ### Directions
 

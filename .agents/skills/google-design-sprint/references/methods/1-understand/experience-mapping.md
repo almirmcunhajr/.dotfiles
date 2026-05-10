@@ -5,6 +5,7 @@ Experience Mapping is a common UX method where as a team you map out step by ste
 * **Time:** 30-50 mins
 * **Activity:** Group
 * **Output:** Experience map with motivations, needs, pain points, and contextual layers.
+* **Source:** Core Method
 
 ### Directions
 

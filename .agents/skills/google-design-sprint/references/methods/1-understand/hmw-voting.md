@@ -5,6 +5,7 @@ HMW voting is a Design Sprint method used to prioritize identified opportunities
 * **Time:** 5 mins
 * **Activity:** Individual
 * **Output:** Prioritized HMW notes.
+* **Source:** Core Method
 
 ### Directions
 

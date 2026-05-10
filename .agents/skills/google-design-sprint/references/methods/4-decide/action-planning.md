@@ -5,6 +5,7 @@ Action planning is a simple method for teams participating in a sprint to identi
 * **Time:** 10 mins
 * **Activity:** Group
 * **Output:** Time-bound action items and accountability partners.
+* **Source:** Sudden Compass®
 
 ### Directions
 

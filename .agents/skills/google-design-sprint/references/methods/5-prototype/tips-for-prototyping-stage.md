@@ -5,6 +5,7 @@ Here are some tips when you enter the prototyping stage:
 * **Time:** Variable
 * **Activity:** Group
 * **Output:** Pragmatic prototype constraints and setup.
+* **Source:** Core Method
 
 ### Directions
 

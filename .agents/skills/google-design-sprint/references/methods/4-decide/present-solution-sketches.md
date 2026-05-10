@@ -5,6 +5,7 @@ It's common to kick off the Decide phase of a Design Sprint by having each team 
 * **Time:** Per person: 5 mins
 * **Activity:** Group
 * **Output:** Shared understanding of each sketch.
+* **Source:** Core Method
 
 ### Directions
 

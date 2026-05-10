@@ -5,6 +5,7 @@ Becoming a great researcher begins with a commitment to the continual evolution 
 * **Time:** 30 mins
 * **Activity:** Individual
 * **Output:** Better interview technique and moderator checklist.
+* **Source:** Voltage Control
 
 ### Directions
 

@@ -5,6 +5,7 @@ After everyone has finished the Crazy 8's exercise, it's time for each team memb
 * **Time:** 30 mins
 * **Activity:** Group
 * **Output:** Voted promising sketch fragments.
+* **Source:** Core Method
 
 ### Directions
 

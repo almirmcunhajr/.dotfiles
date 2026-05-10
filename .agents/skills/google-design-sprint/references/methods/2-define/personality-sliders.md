@@ -5,6 +5,7 @@ Personality sliders is a brand strategy exercise that helps set the tone for you
 * **Time:** 20-25 mins
 * **Activity:** Individual
 * **Output:** Chosen positions across brand personality scales.
+* **Source:** Neha Saigal (N5)
 
 ### Directions
 

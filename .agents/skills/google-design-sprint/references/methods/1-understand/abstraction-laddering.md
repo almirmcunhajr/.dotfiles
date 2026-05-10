@@ -5,6 +5,7 @@ Abstraction Laddering is a way of reconsidering a problem statement by broadenin
 * **Time:** 45-60 mins
 * **Activity:** Individual
 * **Output:** Reframed problem statement at the right altitude.
+* **Source:** LUMA Institute
 
 ### Directions
 

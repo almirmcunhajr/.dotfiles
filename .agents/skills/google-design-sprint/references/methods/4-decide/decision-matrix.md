@@ -5,6 +5,7 @@ A Decision Matrix is a Design Sprint method that helps a team evaluate ideas bas
 * **Time:** 30 mins
 * **Activity:** Group
 * **Output:** Ideas plotted by criteria such as impact vs effort.
+* **Source:** Core Method
 
 ### Directions
 

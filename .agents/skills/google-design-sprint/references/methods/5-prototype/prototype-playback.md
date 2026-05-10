@@ -5,6 +5,7 @@ The interview moderator clicks through the prototype and reviews each screen. He
 * **Time:** 15 mins
 * **Activity:** Group
 * **Output:** Revision list and remaining tasks.
+* **Source:** Voltage Control
 
 ### Directions
 

@@ -5,6 +5,7 @@ Behind every new product or service hides leap of faith assumptions. If proven f
 * **Time:** Variable
 * **Activity:** Group
 * **Output:** Important/unknown assumptions for experimentation.
+* **Source:** David J. Bland
 
 ### Directions
 

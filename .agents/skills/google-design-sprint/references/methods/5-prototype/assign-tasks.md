@@ -5,6 +5,7 @@ During the Prototype phase, it helps to divide and conquer. Assign roles to each
 * **Time:** 30 mins
 * **Activity:** Group
 * **Output:** Role/task ownership.
+* **Source:** Core Method
 
 ### Directions
 

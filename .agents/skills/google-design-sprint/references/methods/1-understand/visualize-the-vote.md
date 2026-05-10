@@ -5,6 +5,7 @@ Visualize the Vote is a quick poll of collaborators to reveal preferences and op
 * **Time:** Explanation 5-15 mins
 * **Activity:** Individual
 * **Output:** Vote tally and discussion catalyst.
+* **Source:** LUMA Institute
 
 ### Directions
 

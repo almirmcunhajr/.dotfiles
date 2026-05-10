@@ -5,6 +5,7 @@ The official Sprint Moderator Guide helps you get the most out of your 5-Act use
 * **Time:** 60 mins
 * **Activity:** Individual
 * **Output:** Moderator guide and interview plan.
+* **Source:** Voltage Control
 
 ### Directions
 

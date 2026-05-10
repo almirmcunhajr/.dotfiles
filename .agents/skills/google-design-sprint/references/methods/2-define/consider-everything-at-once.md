@@ -5,6 +5,7 @@ This visualization technique of having everything in front of us at once can be 
 * **Time:** 30-50 mins
 * **Activity:** Group
 * **Output:** Four-quadrant synthesis board.
+* **Source:** Norman Vogel (Fiducia & GAD IT AG)
 
 ### Directions
 

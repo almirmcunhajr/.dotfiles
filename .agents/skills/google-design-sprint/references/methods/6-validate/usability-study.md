@@ -5,6 +5,7 @@ The Usability Study is a Design Sprint method to identify any usability issues a
 * **Time:** 30-45 mins per participant
 * **Activity:** Researcher and User Participant
 * **Output:** Usability findings tied to tasks/scenarios.
+* **Source:** Core Method
 
 ### Directions
 

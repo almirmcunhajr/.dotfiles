@@ -5,6 +5,7 @@ Picking a target is a design sprint method that helps the team narrow down on a 
 * **Time:** 10 mins
 * **Activity:** Individual
 * **Output:** Circled target moment for the rest of the sprint.
+* **Source:** Neha Saigal (N5)
 
 ### Directions
 

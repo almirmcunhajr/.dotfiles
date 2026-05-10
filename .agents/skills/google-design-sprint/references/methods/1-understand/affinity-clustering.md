@@ -5,6 +5,7 @@ Affinity Clustering is a graphic technique for sorting items according to simila
 * **Time:** 45-90 mins
 * **Activity:** Individual
 * **Output:** Labeled clusters and emerging insights.
+* **Source:** LUMA Institute
 
 ### Directions
 

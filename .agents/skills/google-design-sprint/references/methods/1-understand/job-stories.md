@@ -5,6 +5,7 @@ The job story has its roots in Jobs-to-be-done (JTBD) which is a theory that aim
 * **Time:** 45-60 mins
 * **Activity:** Individual
 * **Output:** Critical job stories in "When / I want to / so I can" format.
+* **Source:** Neha Saigal (N5)
 
 ### Directions
 

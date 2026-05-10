@@ -5,6 +5,7 @@ Note and Vote is a helpful Design Sprint method for a team that usually gives th
 * **Time:** 10 mins
 * **Activity:** Individual
 * **Output:** Visible vote set; optional consensus discussion.
+* **Source:** Core Method
 
 ### Directions
 

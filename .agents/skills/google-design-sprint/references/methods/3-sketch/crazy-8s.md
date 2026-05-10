@@ -5,6 +5,7 @@ Crazy 8's is a core Design Sprint method. It is a fast sketching exercise that c
 * **Time:** 8 mins
 * **Activity:** Individual
 * **Output:** Eight rough ideas per person.
+* **Source:** Core Method
 
 ### Directions
 

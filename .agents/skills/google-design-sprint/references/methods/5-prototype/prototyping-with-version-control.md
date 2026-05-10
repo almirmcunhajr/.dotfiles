@@ -5,6 +5,7 @@ This recipe is a structured approach to keep the prototypes flexible, organized,
 * **Time:** 30 mins
 * **Activity:** Individual
 * **Output:** Versioned files and collaboration workflow.
+* **Source:** Core Method
 
 ### Directions
 

@@ -5,6 +5,7 @@ Every application has multiple user paths through it. All these paths are valid.
 * **Time:** 30 mins
 * **Activity:** Group
 * **Output:** Key use journey / golden path.
+* **Source:** Core Method
 
 ### Directions
 

@@ -5,6 +5,7 @@ As a precursor to a Dot Vote, Heatmap Voting is a Design Sprint method to zero i
 * **Time:** 10 mins
 * **Activity:** Individual
 * **Output:** Feature-level interest map.
+* **Source:** Core Method
 
 ### Directions
 

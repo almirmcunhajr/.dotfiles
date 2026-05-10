@@ -5,6 +5,7 @@ Insights, Questions, Ideas (IQI, pronounced "icky"), developed by Sudden Compass
 * **Time:** 15 mins
 * **Activity:** Group
 * **Output:** Distinct sets of insights, questions, and ideas.
+* **Source:** Sudden Compass®
 
 ### Directions
 

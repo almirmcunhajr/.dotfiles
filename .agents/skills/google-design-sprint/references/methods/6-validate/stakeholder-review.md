@@ -5,6 +5,7 @@ The Stakeholder Review is a Design Sprint method used to confirm buy-in on the p
 * **Time:** 30 mins
 * **Activity:** Group
 * **Output:** Buy-in, concerns, and stakeholder feedback.
+* **Source:** Core Method
 
 ### Directions
 

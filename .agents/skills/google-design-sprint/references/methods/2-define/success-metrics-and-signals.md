@@ -5,6 +5,7 @@ Defining a shared understanding of Success Metrics is a vital step in the Design
 * **Time:** 30 mins
 * **Activity:** Group
 * **Output:** Goals, behavioral signals, and metrics, often using HEART categories.
+* **Source:** Core Method
 
 ### Directions
 

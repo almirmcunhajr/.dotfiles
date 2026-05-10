@@ -5,6 +5,7 @@ The Solution Sketch is a Design Sprint method used to expand upon one solution i
 * **Time:** 60 mins
 * **Activity:** Individual
 * **Output:** Detailed sketch with title and multiple frames/states.
+* **Source:** Core Method
 
 ### Directions
 

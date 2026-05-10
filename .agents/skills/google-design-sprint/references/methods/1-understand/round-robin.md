@@ -5,6 +5,7 @@ Round Robin is an activity in which ideas evolve as they are passed from person 
 * **Time:** 15-30 mins
 * **Activity:** Individual
 * **Output:** Evolved concepts with critique and repair.
+* **Source:** LUMA Institute
 
 ### Directions
 

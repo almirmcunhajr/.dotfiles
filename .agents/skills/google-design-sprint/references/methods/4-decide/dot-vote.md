@@ -5,6 +5,7 @@ Dot Vote is a Design Sprint method to achieve group consensus around a single id
 * **Time:** Per person: 3 mins
 * **Activity:** Group
 * **Output:** Winning idea or shortlist.
+* **Source:** Core Method
 
 ### Directions
 

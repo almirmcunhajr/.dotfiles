@@ -5,6 +5,7 @@ Similar to the Stakeholder Review, the Technical Review is a Design Sprint metho
 * **Time:** 20 mins
 * **Activity:** Group
 * **Output:** Feasibility feedback, risks, and constraints.
+* **Source:** Core Method
 
 ### Directions
 

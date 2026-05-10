@@ -5,6 +5,7 @@ A Cognitive Walkthrough (CW) is a usability inspection Design Sprint method that
 * **Time:** 30-34 mins per session
 * **Activity:** Researcher and Participant
 * **Output:** Step-by-step usability issues.
+* **Source:** Core Method
 
 ### Directions
 

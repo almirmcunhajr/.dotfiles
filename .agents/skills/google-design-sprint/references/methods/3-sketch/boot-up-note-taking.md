@@ -5,6 +5,7 @@ Boot Up Note Taking is a Sketch Design Sprint method that prepares the team for 
 * **Time:** 10 mins
 * **Activity:** Individual
 * **Output:** Personal idea notes.
+* **Source:** Core Method
 
 ### Directions
 

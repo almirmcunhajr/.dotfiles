@@ -5,6 +5,7 @@ Integrated Data Thinking is a framework developed by Sudden Compass® that allow
 * **Time:** 15 mins
 * **Activity:** Individual
 * **Output:** Question map and suitable research methods.
+* **Source:** Sudden Compass®
 
 ### Directions
 

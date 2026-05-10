@@ -5,6 +5,7 @@ The Silent Review and Vote is a helpful Design Sprint method for a team that usu
 * **Time:** Per person: 3 mins
 * **Activity:** Group
 * **Output:** More equal review and vote result.
+* **Source:** Core Method
 
 ### Directions
 

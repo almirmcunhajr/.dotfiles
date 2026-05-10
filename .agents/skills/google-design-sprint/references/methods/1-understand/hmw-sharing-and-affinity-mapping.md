@@ -5,6 +5,7 @@ Affinity Mapping is a Design Sprint method that frequently follows Lightning Tal
 * **Time:** 30 mins
 * **Activity:** Group
 * **Output:** HMW themes and opportunity clusters.
+* **Source:** Core Method
 
 ### Directions
 

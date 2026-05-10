@@ -5,6 +5,7 @@ The Business Model Canvas is a template that's often used in Lean Startup method
 * **Time:** 60 mins
 * **Activity:** Group
 * **Output:** Nine-segment business model canvas.
+* **Source:** Core Method
 
 ### Directions
 

@@ -5,6 +5,7 @@ A future press release can help focus the team on the desired outcome and get ev
 * **Time:** 50 mins
 * **Activity:** Group
 * **Output:** One-page future press release or strongest components.
+* **Source:** Core Method
 
 ### Directions
 

@@ -5,6 +5,7 @@ The Iceberg Canvas is a conscious design framework for re-evaluating value propo
 * **Time:** 90-120 mins
 * **Activity:** Group
 * **Output:** Above/below-the-waterline implications and conscious action items.
+* **Source:** Karwai Ng & Will Anderson
 
 ### Directions
 

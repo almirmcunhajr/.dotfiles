@@ -5,6 +5,7 @@ Why, How, Prototype, Iterate (WHPI, pronounced “whoopee”) is a generalized a
 * **Time:** 60 mins
 * **Activity:** Group
 * **Output:** Timeboxed prototype evaluated against agreed outcomes.
+* **Source:** Sudden Compass®
 
 ### Directions
 

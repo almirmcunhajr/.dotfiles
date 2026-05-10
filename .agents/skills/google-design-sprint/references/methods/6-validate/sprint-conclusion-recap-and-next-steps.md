@@ -5,6 +5,7 @@ Once you have completed your validation sessions, bring the team back together t
 * **Time:** 60 mins
 * **Activity:** Group
 * **Output:** Learning summary and decision to iterate, pivot, proceed, or stop.
+* **Source:** Core Method
 
 ### Directions
 

@@ -5,6 +5,7 @@ The 5 Act Interview is a structured 1-on-1 interview format developed at Google 
 * **Time:** 5 Hours
 * **Activity:** Individual
 * **Output:** Repeatable interview sessions and observations.
+* **Source:** Voltage Control
 
 ### Directions
 

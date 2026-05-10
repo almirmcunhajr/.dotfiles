@@ -5,6 +5,7 @@ Rose, Thorn, Bud is a technique for identifying things as positive, negative, or
 * **Time:** 10-30 mins
 * **Activity:** Individual
 * **Output:** Color-coded observations for later synthesis.
+* **Source:** LUMA Institute
 
 ### Directions
 

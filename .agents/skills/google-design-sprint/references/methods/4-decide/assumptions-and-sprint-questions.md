@@ -5,6 +5,7 @@ The Assumptions and Sprint Questions method frequently follows the presentation 
 * **Time:** 30 mins
 * **Activity:** Group
 * **Output:** Prioritized sprint questions.
+* **Source:** Core Method
 
 ### Directions
 

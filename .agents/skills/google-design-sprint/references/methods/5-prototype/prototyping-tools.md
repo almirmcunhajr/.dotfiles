@@ -5,6 +5,7 @@ The Design Sprint methodology can be used for many different business problems, 
 * **Time:** Variable
 * **Activity:** Group
 * **Output:** Tool choice that the maker already knows.
+* **Source:** Core Method
 
 ### Directions
 

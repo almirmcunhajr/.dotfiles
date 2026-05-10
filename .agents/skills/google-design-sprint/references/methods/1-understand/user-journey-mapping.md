@@ -5,6 +5,7 @@ User Journey Mapping is a common Design Sprint method that maps out a user's exp
 * **Time:** 30-50 mins
 * **Activity:** Group
 * **Output:** Journey map with pain points and opportunities.
+* **Source:** Core Method
 
 ### Directions
 
