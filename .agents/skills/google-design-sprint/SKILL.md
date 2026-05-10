@@ -53,6 +53,7 @@ For each phase, avoid dumping a wall of text. Engage the user collaboratively an
 - Once the user confirms the deliverable for the phase is complete, summarize the outcomes and transition to the next phase.
 
 ## Important Principles
+- **Strict Phase Boundaries**: Respect the specific scope and purpose of each phase. Ensure documents and deliverables strictly reflect only what is intended to be explored or decided in the current phase. Do not anticipate or document elements (like solutions, architectures, or naming) that belong to subsequent phases.
 - **Timeboxing**: Remind the user to timebox activities. Sprints rely on momentum.
 - **Tangible Output & File Naming**: Push the user to write things down or sketch. When creating files or documents as deliverables for sprint methods, you MUST use the following directory and file naming convention: `docs/sprint-<number>/phase-<number>-<name>/<method-deriverable-name>.md` (e.g., `docs/sprint-1/phase-1-understand/user-journey-map.md` or `docs/sprint-1/phase-2-define/business-model-canvas.md`).
 - **Decisiveness & The Decider**: In the Decide phase, ensure a clear decision is made so the Prototype phase isn't bogged down in debate. The "Decider" (stakeholder with decision-making power) plays a crucial role here.
