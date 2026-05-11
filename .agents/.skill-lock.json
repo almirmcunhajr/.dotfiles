@@ -69,7 +69,7 @@
       "skillFolderHash": "77638955bebe492948244f1338e54ca1a9445c29",
       "pluginName": "mattpocock-skills",
       "installedAt": "2026-05-07T22:06:51.207Z",
-      "updatedAt": "2026-05-07T22:06:51.207Z"
+      "updatedAt": "2026-05-11T18:10:28.666Z"
     },
     "tdd": {
       "source": "mattpocock/skills",
@@ -671,6 +671,268 @@
       "skillFolderHash": "1b7a962715838d762fe4b34701d797d1d57496cd",
       "installedAt": "2026-05-09T20:47:16.866Z",
       "updatedAt": "2026-05-09T20:47:16.866Z"
+    },
+    "python-anti-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/python-development/skills/python-anti-patterns/SKILL.md",
+      "skillFolderHash": "58eb4fb554c116976c2f223ae10c47a51817d143",
+      "installedAt": "2026-05-11T19:10:19.491Z",
+      "updatedAt": "2026-05-11T19:10:19.491Z"
+    },
+    "python-background-jobs": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/python-development/skills/python-background-jobs/SKILL.md",
+      "skillFolderHash": "8ebbe1ec54ebc7982abe57ceb85e203b2b8efa08",
+      "installedAt": "2026-05-11T19:10:19.494Z",
+      "updatedAt": "2026-05-11T19:10:19.494Z"
+    },
+    "python-code-style": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/python-development/skills/python-code-style/SKILL.md",
+      "skillFolderHash": "e5a0c7b40f1cff37ca3869b29291b6ee97d450e9",
+      "installedAt": "2026-05-11T19:10:19.497Z",
+      "updatedAt": "2026-05-11T19:10:19.497Z"
+    },
+    "python-configuration": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/python-development/skills/python-configuration/SKILL.md",
+      "skillFolderHash": "cbdb6fd72a93b47e677909e9a2fb07cdc16b24f8",
+      "installedAt": "2026-05-11T19:10:19.498Z",
+      "updatedAt": "2026-05-11T19:10:19.498Z"
+    },
+    "python-design-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/python-development/skills/python-design-patterns/SKILL.md",
+      "skillFolderHash": "d14f37b9654a3e70b1efa2ceae5b9b3bb706d46e",
+      "installedAt": "2026-05-11T19:10:19.501Z",
+      "updatedAt": "2026-05-11T19:20:48.593Z"
+    },
+    "python-error-handling": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/python-development/skills/python-error-handling/SKILL.md",
+      "skillFolderHash": "cb6c9295d57491f5eeefc2d1469d10f12d06b951",
+      "installedAt": "2026-05-11T19:10:19.503Z",
+      "updatedAt": "2026-05-11T19:10:19.503Z"
+    },
+    "python-observability": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/python-development/skills/python-observability/SKILL.md",
+      "skillFolderHash": "b3fa492cd6bc8d2215cb209b7fcae49f9704f3c5",
+      "installedAt": "2026-05-11T19:10:19.504Z",
+      "updatedAt": "2026-05-11T19:10:19.504Z"
+    },
+    "python-packaging": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/python-development/skills/python-packaging/SKILL.md",
+      "skillFolderHash": "b7e32fe9db6e4d089f1102388ff2879a90f79c04",
+      "installedAt": "2026-05-11T19:10:19.506Z",
+      "updatedAt": "2026-05-11T19:10:19.506Z"
+    },
+    "python-performance-optimization": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/python-development/skills/python-performance-optimization/SKILL.md",
+      "skillFolderHash": "f0e64087a8f9685ef5d394b03aefa1dc0accd65a",
+      "installedAt": "2026-05-11T19:10:19.508Z",
+      "updatedAt": "2026-05-11T19:10:19.508Z"
+    },
+    "python-project-structure": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/python-development/skills/python-project-structure/SKILL.md",
+      "skillFolderHash": "70109b96fb8e73142730844acd8e6ffe125a2139",
+      "installedAt": "2026-05-11T19:10:19.509Z",
+      "updatedAt": "2026-05-11T19:10:19.509Z"
+    },
+    "python-resilience": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/python-development/skills/python-resilience/SKILL.md",
+      "skillFolderHash": "656b9d366a9a7676008233b13f3cd7eac0b20a16",
+      "installedAt": "2026-05-11T19:10:19.510Z",
+      "updatedAt": "2026-05-11T19:10:19.510Z"
+    },
+    "python-resource-management": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/python-development/skills/python-resource-management/SKILL.md",
+      "skillFolderHash": "ae87af5edcc71fe411e50fd62679f37e0ff08250",
+      "installedAt": "2026-05-11T19:10:19.510Z",
+      "updatedAt": "2026-05-11T19:10:19.510Z"
+    },
+    "python-testing-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/python-development/skills/python-testing-patterns/SKILL.md",
+      "skillFolderHash": "28ce19935b2b48708af69e47e7686936a249c08b",
+      "installedAt": "2026-05-11T19:10:19.511Z",
+      "updatedAt": "2026-05-11T19:20:44.540Z"
+    },
+    "python-type-safety": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/python-development/skills/python-type-safety/SKILL.md",
+      "skillFolderHash": "6bc30a129da124b9015a2adde4cda8f686bf24b8",
+      "installedAt": "2026-05-11T19:10:19.512Z",
+      "updatedAt": "2026-05-11T19:10:19.512Z"
+    },
+    "async-python-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/python-development/skills/async-python-patterns/SKILL.md",
+      "skillFolderHash": "0a3bbf201d38ac29d14b38b1b3417f73bddc7c24",
+      "installedAt": "2026-05-11T19:10:19.512Z",
+      "updatedAt": "2026-05-11T19:10:19.512Z"
+    },
+    "uv-package-manager": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/python-development/skills/uv-package-manager/SKILL.md",
+      "skillFolderHash": "f80b5182adb7bec902841316352bb9e1b8871fbf",
+      "installedAt": "2026-05-11T19:10:19.513Z",
+      "updatedAt": "2026-05-11T19:10:19.513Z"
+    },
+    "deep-agents-core": {
+      "source": "langchain-ai/langchain-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
+      "skillPath": "config/skills/deep-agents-core/SKILL.md",
+      "skillFolderHash": "be5e4342f11f28b783009f56a21d003aa6152828",
+      "installedAt": "2026-05-11T19:15:17.875Z",
+      "updatedAt": "2026-05-11T19:15:17.875Z"
+    },
+    "deep-agents-memory": {
+      "source": "langchain-ai/langchain-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
+      "skillPath": "config/skills/deep-agents-memory/SKILL.md",
+      "skillFolderHash": "a0dc9fd8801a7ea74204724dddb5f432974049e2",
+      "installedAt": "2026-05-11T19:15:17.878Z",
+      "updatedAt": "2026-05-11T19:15:17.878Z"
+    },
+    "deep-agents-orchestration": {
+      "source": "langchain-ai/langchain-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
+      "skillPath": "config/skills/deep-agents-orchestration/SKILL.md",
+      "skillFolderHash": "b6859361918d91849fc1820a8ae3a9092df29497",
+      "installedAt": "2026-05-11T19:15:17.881Z",
+      "updatedAt": "2026-05-11T19:15:17.881Z"
+    },
+    "framework-selection": {
+      "source": "langchain-ai/langchain-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
+      "skillPath": "config/skills/framework-selection/SKILL.md",
+      "skillFolderHash": "bd727c0dae71a11ccd8a16ddeb9aedf631507c84",
+      "installedAt": "2026-05-11T19:15:17.885Z",
+      "updatedAt": "2026-05-11T19:15:17.885Z"
+    },
+    "langchain-dependencies": {
+      "source": "langchain-ai/langchain-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
+      "skillPath": "config/skills/langchain-dependencies/SKILL.md",
+      "skillFolderHash": "9c4c1d01c39a24598e9bed0e54d1ace4dc1dc69e",
+      "installedAt": "2026-05-11T19:15:17.887Z",
+      "updatedAt": "2026-05-11T19:15:17.887Z"
+    },
+    "langchain-fundamentals": {
+      "source": "langchain-ai/langchain-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
+      "skillPath": "config/skills/langchain-fundamentals/SKILL.md",
+      "skillFolderHash": "51fa1785f7a78b5e573244bbc4e954a0f652f4bc",
+      "installedAt": "2026-05-11T19:15:17.888Z",
+      "updatedAt": "2026-05-11T19:15:17.888Z"
+    },
+    "langchain-middleware": {
+      "source": "langchain-ai/langchain-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
+      "skillPath": "config/skills/langchain-middleware/SKILL.md",
+      "skillFolderHash": "5b2e3029689b6ca7473480887aedc456ac5c56bf",
+      "installedAt": "2026-05-11T19:15:17.890Z",
+      "updatedAt": "2026-05-11T19:15:17.890Z"
+    },
+    "langchain-rag": {
+      "source": "langchain-ai/langchain-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
+      "skillPath": "config/skills/langchain-rag/SKILL.md",
+      "skillFolderHash": "98e80d4173342f8d1f7cc92f74dc8d54655e4b71",
+      "installedAt": "2026-05-11T19:15:17.891Z",
+      "updatedAt": "2026-05-11T19:15:17.891Z"
+    },
+    "langgraph-fundamentals": {
+      "source": "langchain-ai/langchain-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
+      "skillPath": "config/skills/langgraph-fundamentals/SKILL.md",
+      "skillFolderHash": "cd6cd8753c5718292cf3fa060707a6f3f75aa1c6",
+      "installedAt": "2026-05-11T19:15:17.892Z",
+      "updatedAt": "2026-05-11T19:15:17.892Z"
+    },
+    "langgraph-human-in-the-loop": {
+      "source": "langchain-ai/langchain-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
+      "skillPath": "config/skills/langgraph-human-in-the-loop/SKILL.md",
+      "skillFolderHash": "84a3c1d5547c54ef8c9e1cf0f834497e26c2c3cb",
+      "installedAt": "2026-05-11T19:15:17.897Z",
+      "updatedAt": "2026-05-11T19:15:17.897Z"
+    },
+    "langgraph-persistence": {
+      "source": "langchain-ai/langchain-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/langchain-ai/langchain-skills.git",
+      "skillPath": "config/skills/langgraph-persistence/SKILL.md",
+      "skillFolderHash": "193624dbb118fc785d7fbed54cfa3d9a042c6f48",
+      "installedAt": "2026-05-11T19:15:17.898Z",
+      "updatedAt": "2026-05-11T19:20:56.813Z"
+    },
+    "langgraph-docs": {
+      "source": "langchain-ai/deepagents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/langchain-ai/deepagents.git",
+      "skillPath": "libs/cli/examples/skills/langgraph-docs/SKILL.md",
+      "skillFolderHash": "95561a3eb3fd9643c6b702a9a2d0bc94dfa62381",
+      "installedAt": "2026-05-11T19:20:54.175Z",
+      "updatedAt": "2026-05-11T19:20:54.175Z"
+    },
+    "clean-architecture": {
+      "source": "wondelai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wondelai/skills.git",
+      "skillPath": "clean-architecture/SKILL.md",
+      "skillFolderHash": "103f4f377445f26e9477d7fc5b40fb186867512c",
+      "pluginName": "systems-architecture",
+      "installedAt": "2026-05-11T19:21:01.542Z",
+      "updatedAt": "2026-05-11T19:21:01.542Z"
     }
   },
   "dismissed": {
