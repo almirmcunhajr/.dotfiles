@@ -2,7 +2,12 @@
 
 echo "Starting Linux bootstrap..."
 
-# Update package list
+# Update package list and install prerequisites
+sudo apt update
+sudo apt install -y software-properties-common
+
+# Add Neovim unstable PPA for latest versions (>= 0.12)
+sudo add-apt-repository -y ppa:neovim-ppa/unstable
 sudo apt update
 
 # Install tools
