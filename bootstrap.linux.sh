@@ -23,4 +23,10 @@ if [ ! -d "$P10K_PATH" ]; then
     git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "$P10K_PATH"
 fi
 
+# Change default shell to zsh
+if [ "$SHELL" != "$(which zsh)" ]; then
+    echo "Changing default shell to zsh..."
+    sudo chsh -s $(which zsh) $USER
+fi
+
 echo "Linux bootstrap complete!"
