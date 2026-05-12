@@ -13,6 +13,11 @@ return {
     end,
   },
 
+  {
+    "github/copilot.vim",
+    lazy = false,
+  },
+
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
 
