@@ -23,6 +23,12 @@ sudo mkdir -p -m 755 /etc/apt/keyrings \
 	&& sudo apt update \
 	&& sudo apt install gh -y
 
+# Install Warp Terminal
+echo "Installing Warp Terminal..."
+wget https://app.warp.dev/download?package=deb -O /tmp/warp-terminal.deb
+sudo apt install -y /tmp/warp-terminal.deb
+rm /tmp/warp-terminal.deb
+
 # Change default shell to zsh
 if [ "$SHELL" != "$(which zsh)" ]; then
     echo "Changing default shell to zsh..."
