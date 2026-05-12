@@ -933,6 +933,24 @@
       "pluginName": "systems-architecture",
       "installedAt": "2026-05-11T19:21:01.542Z",
       "updatedAt": "2026-05-11T19:34:29.725Z"
+    },
+    "project-bootstrap": {
+      "source": "git@github.com:inloco/agent-skills.git",
+      "sourceType": "git",
+      "sourceUrl": "git@github.com:inloco/agent-skills.git",
+      "skillPath": "skills/project-bootstrap/SKILL.md",
+      "skillFolderHash": "19e5553d798c50006483508d993ba06ae207a623054c5ac35b1557615f92159f",
+      "installedAt": "2026-05-12T18:09:18.403Z",
+      "updatedAt": "2026-05-12T18:19:59.828Z"
+    },
+    "iac-project-config": {
+      "source": "git@github.com:inloco/agent-skills.git",
+      "sourceType": "git",
+      "sourceUrl": "git@github.com:inloco/agent-skills.git",
+      "skillPath": "skills/iac-project-config/SKILL.md",
+      "skillFolderHash": "3ec5c0ee6904a1fa3c8905e7a16b2b33fe3ada97381d2b2754f75816c21f8d6a",
+      "installedAt": "2026-05-12T18:19:59.817Z",
+      "updatedAt": "2026-05-12T18:19:59.817Z"
     }
   },
   "dismissed": {

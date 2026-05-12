@@ -26,7 +26,29 @@ internal/
   config/               # Environment-based configuration management
   <feature>/            # Domain logic, entities, and interfaces
   <provider>/           # Provider-specific logic and implementations of the domain interfaces (e.g., keycloak/, openai/, postgres/, redis/)
+  <transport>/          # Inbound transport adapters (e.g., http/, grpc/)
 ```
 
 ### Technical References
 - [Effective Go](https://go.dev/doc/effective_go): Canonical guide for writing idiomatic, standard-compliant Go code.
+
+## 4. Generator and Critic Multi-Agent Pattern
+
+When generating high-quality, reliable output, apply the **Generator and Critic** pattern by separating content creation from content validation.
+
+- **Generator**: Produces the initial draft (code, content, configuration, etc.).
+- **Critic**: Reviews the draft against specific, hard-coded criteria or logical checks (e.g., syntax correctness, compliance rules, architectural standards).
+
+### Conditional Loop
+
+1. The Generator produces a draft.
+2. The Critic reviews it against defined criteria.
+3. **If the review passes**, the loop breaks and the content is finalized.
+4. **If the review fails**, specific feedback is routed back to the Generator to produce a compliant draft.
+5. Repeat until the Critic approves.
+
+### When to Apply
+
+- Code generation that needs syntax or correctness checking.
+- Content creation requiring compliance or standards review.
+- Any output where a second validation pass materially improves quality and reliability.
