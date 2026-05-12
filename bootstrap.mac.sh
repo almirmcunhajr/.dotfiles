@@ -10,6 +10,6 @@ fi
 brew update
 
 # Install tools
-echo "Installing tools: zsh, nvim, tmux, tmuxinator, iterm2, opencode-desktop..."
-brew install zsh neovim tmux tmuxinator
+echo "Installing tools: zsh, nvim, tmux, tmuxinator, iterm2, opencode-desktop, gh..."
+brew install zsh neovim tmux tmuxinator gh
 brew install --cask iterm2 opencode-desktop
