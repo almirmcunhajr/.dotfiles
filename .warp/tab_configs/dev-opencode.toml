@@ -1,0 +1,45 @@
+name = "Dev"
+
+[params.repo]
+type = "repo"
+description = "Repository path"
+
+[params.agent]
+type = "text"
+description = "Agent command to run in the right pane"
+
+[[panes]]
+id = "p1"
+split = "horizontal"
+children = [
+    "p2",
+    "p3",
+]
+
+[[panes]]
+id = "p2"
+type = "terminal"
+is_focused = true
+directory = "{{repo}}"
+commands = ["nvim ."]
+
+[[panes]]
+id = "p3"
+split = "vertical"
+children = [
+    "p4",
+    "p5",
+]
+
+[[panes]]
+id = "p4"
+type = "terminal"
+directory = "{{repo}}"
+commands = ["{{agent}}"]
+
+[[panes]]
+id = "p5"
+type = "terminal"
+directory = "{{repo}}"
+
+[params]
