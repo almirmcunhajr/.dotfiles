@@ -1,0 +1,1 @@
+/Users/almir.cunha/.agents/AGENTS.md

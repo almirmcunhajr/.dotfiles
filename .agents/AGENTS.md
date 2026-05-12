@@ -1,0 +1,46 @@
+# Global Agent Instructions
+
+## Go Architecture Preferences
+
+Hexagonal
+
+### Directory structure
+
+Package-by-feature for core domains, separate infrastructure packages for provider-specific adapters:
+
+```
+cmd/<appname>/          composition root and DI
+internal/
+  config/               env-based configuration
+  <feature>/            domain-specific logic, entities and interfaces 
+  infra/
+    <provider>/         provider-specific implementation (e.g. keycloak/, openai/, postgres/, redis/)
+```
+
+## Skills
+
+### Always load for Go projects
+- `clean-architecture`
+- `clean-code`
+- `software-architecture`
+- `golang-code-style`
+- `golang-naming`
+- `golang-error-handling`
+- `golang-safety`
+- `golang-design-patterns`
+- `golang-structs-interfaces`
+- `golang-modernize`
+- `golang-project-layout`
+
+### Load when relevant
+- `golang-testing` — when writing or reviewing tests
+- `golang-concurrency` — when working with goroutines, channels, mutexes
+- `golang-context` — when working with context propagation
+- `golang-data-structures` — when choosing or optimizing data structures
+- `golang-dependency-injection` — when wiring services
+- `golang-security` — when handling auth, crypto, user input
+- `golang-lint` — when configuring or interpreting linters
+- `golang-documentation` — when writing doc comments
+
+When in doubt about Go idioms, fetch https://go.dev/doc/effective_go for reference.
+
