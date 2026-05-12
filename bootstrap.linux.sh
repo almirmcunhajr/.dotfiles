@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo "Starting Linux bootstrap..."
-
 # Update package list and install prerequisites
 sudo apt update
 sudo apt install -y software-properties-common
@@ -11,30 +9,12 @@ sudo add-apt-repository -y ppa:neovim-ppa/unstable
 sudo apt update
 
 # Install tools
-echo "Installing tools: zsh, nvim, tmux, tmuxinator..."
-sudo apt install -y zsh neovim tmux ruby-full
+echo "Installing tools: zsh, nvim, tmux, tmuxinator, wget, curl..."
+sudo apt install -y zsh neovim tmux ruby-full wget curl
 sudo gem install tmuxinator
 
-# Install oh-my-zsh if not already installed
-if [ ! -d "$HOME/.oh-my-zsh" ]; then
-    echo "Installing oh-my-zsh..."
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
-fi
-
-# Install powerlevel10k theme
-P10K_PATH="${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
-if [ ! -d "$P10K_PATH" ]; then
-    echo "Installing powerlevel10k..."
-    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "$P10K_PATH"
-fi
-
-# Install Node.js
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
-nvm install 24
-
 # Install GitHub CLI
-(type -p wget >/dev/null || (sudo apt update && sudo apt install wget -y)) \
-	&& sudo mkdir -p -m 755 /etc/apt/keyrings \
+sudo mkdir -p -m 755 /etc/apt/keyrings \
 	&& out=$(mktemp) && wget -nv -O$out https://cli.github.com/packages/githubcli-archive-keyring.gpg \
 	&& cat $out | sudo tee /etc/apt/keyrings/githubcli-archive-keyring.gpg > /dev/null \
 	&& sudo chmod go+r /etc/apt/keyrings/githubcli-archive-keyring.gpg \
@@ -49,4 +29,3 @@ if [ "$SHELL" != "$(which zsh)" ]; then
     chsh -s $(which zsh)
 fi
 
-echo "Linux bootstrap complete!"
