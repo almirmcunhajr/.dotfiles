@@ -17,9 +17,7 @@ internal/
     <provider>/         provider-specific implementation (e.g. keycloak/, openai/, postgres/, redis/)
 ```
 
-## Skills
-
-### Always load for Go projects
+## Relevant Skills
 - `clean-architecture`
 - `clean-code`
 - `software-architecture`
@@ -31,16 +29,14 @@ internal/
 - `golang-structs-interfaces`
 - `golang-modernize`
 - `golang-project-layout`
-
-### Load when relevant
-- `golang-testing` — when writing or reviewing tests
-- `golang-concurrency` — when working with goroutines, channels, mutexes
-- `golang-context` — when working with context propagation
-- `golang-data-structures` — when choosing or optimizing data structures
-- `golang-dependency-injection` — when wiring services
-- `golang-security` — when handling auth, crypto, user input
-- `golang-lint` — when configuring or interpreting linters
-- `golang-documentation` — when writing doc comments
+- `golang-testing` 
+- `golang-concurrency` 
+- `golang-context`
+- `golang-data-structures`
+- `golang-dependency-injection`
+- `golang-security`
+- `golang-lint`
+- `golang-documentation`
 
 When in doubt about Go idioms, fetch https://go.dev/doc/effective_go for reference.
 
