@@ -16,5 +16,6 @@ brew install --cask iterm2 opencode-desktop warp
 
 # Create compatibility symlinks for XDG migration
 echo "Creating compatibility symlinks..."
-ln -sfn "$HOME/.config/warp-terminal" "$HOME/.warp"
+ln -sfn "$HOME/.config/warp-terminal/settings.toml" "$HOME/.warp/settings.toml"
+ln -sfn "$HOME/.local/share/warp-terminal/tab_configs" "$HOME/.warp/tab_configs"
 ln -sfn "$HOME/.local/share/claude" "$HOME/.claude"
