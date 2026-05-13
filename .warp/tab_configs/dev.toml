@@ -5,8 +5,8 @@ type = "repo"
 description = "Repository path"
 
 [params.agent]
-type = "text"
-description = "Agent command to run in the right pane"
+description = "Agent to run in the right pane"
+default = "opencode"
 
 [[panes]]
 id = "p1"
@@ -35,7 +35,7 @@ children = [
 id = "p4"
 type = "terminal"
 directory = "{{repo}}"
-commands = ["{{agent}}"]
+commands = ["~/.warp/tab_configs/scripts/agent.sh {{agent}}"]
 
 [[panes]]
 id = "p5"
