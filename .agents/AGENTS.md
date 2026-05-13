@@ -46,3 +46,7 @@ internal/
 ### Technical References
 - [Effective Go](https://go.dev/doc/effective_go): Canonical guide for writing idiomatic, standard-compliant Go code.
 
+## 3. Commenting and Documentation Standards
+- Avoid unecessary comments. Code should be self-explanatory through clear naming and structure.
+- Use comments to exlain the "why" behind complex logic, not the "what" (which should be clear from the code itself).
+- Document public interfaces and exported functions with clear, concise comments that explain their purpose, parameters, and return values. If available, use language-specific documentation tools (e.g., GoDoc for Go, Sphinx for Python) to generate API documentation from these comments.

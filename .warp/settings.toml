@@ -67,6 +67,13 @@ system_theme = true
 [appearance.window]
 zoom_level = 100
 
+[appearance.text]
+notebook_font_size = 14.0
+font_size = 13.0
+
+[appearance.panes]
+should_dim_inactive_panes = false
+
 [notifications]
 toast_duration_secs = 8
 
@@ -76,8 +83,9 @@ toast_duration_secs = 8
 show_project_explorer = true
 show_global_search = true
 show_code_review_button = true
-open_code_panels_file_editor = "env_editor"
+open_code_panels_file_editor = "warp"
 open_file_editor = "warp"
+open_file_layout = "new_tab"
 
 [text_editing]
 vim_mode_enabled = true
