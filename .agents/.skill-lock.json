@@ -679,7 +679,7 @@
       "skillPath": "plugins/python-development/skills/python-anti-patterns/SKILL.md",
       "skillFolderHash": "58eb4fb554c116976c2f223ae10c47a51817d143",
       "installedAt": "2026-05-11T19:10:19.491Z",
-      "updatedAt": "2026-05-11T19:10:19.491Z"
+      "updatedAt": "2026-05-13T01:16:41.546Z"
     },
     "python-background-jobs": {
       "source": "wshobson/agents",
@@ -688,7 +688,7 @@
       "skillPath": "plugins/python-development/skills/python-background-jobs/SKILL.md",
       "skillFolderHash": "8ebbe1ec54ebc7982abe57ceb85e203b2b8efa08",
       "installedAt": "2026-05-11T19:10:19.494Z",
-      "updatedAt": "2026-05-11T19:10:19.494Z"
+      "updatedAt": "2026-05-13T01:16:41.548Z"
     },
     "python-code-style": {
       "source": "wshobson/agents",
@@ -697,7 +697,7 @@
       "skillPath": "plugins/python-development/skills/python-code-style/SKILL.md",
       "skillFolderHash": "e5a0c7b40f1cff37ca3869b29291b6ee97d450e9",
       "installedAt": "2026-05-11T19:10:19.497Z",
-      "updatedAt": "2026-05-11T19:10:19.497Z"
+      "updatedAt": "2026-05-13T01:16:41.550Z"
     },
     "python-configuration": {
       "source": "wshobson/agents",
@@ -706,7 +706,7 @@
       "skillPath": "plugins/python-development/skills/python-configuration/SKILL.md",
       "skillFolderHash": "cbdb6fd72a93b47e677909e9a2fb07cdc16b24f8",
       "installedAt": "2026-05-11T19:10:19.498Z",
-      "updatedAt": "2026-05-11T19:10:19.498Z"
+      "updatedAt": "2026-05-13T01:16:41.551Z"
     },
     "python-design-patterns": {
       "source": "wshobson/agents",
@@ -715,7 +715,7 @@
       "skillPath": "plugins/python-development/skills/python-design-patterns/SKILL.md",
       "skillFolderHash": "d14f37b9654a3e70b1efa2ceae5b9b3bb706d46e",
       "installedAt": "2026-05-11T19:10:19.501Z",
-      "updatedAt": "2026-05-11T19:20:48.593Z"
+      "updatedAt": "2026-05-13T01:16:41.553Z"
     },
     "python-error-handling": {
       "source": "wshobson/agents",
@@ -724,7 +724,7 @@
       "skillPath": "plugins/python-development/skills/python-error-handling/SKILL.md",
       "skillFolderHash": "cb6c9295d57491f5eeefc2d1469d10f12d06b951",
       "installedAt": "2026-05-11T19:10:19.503Z",
-      "updatedAt": "2026-05-11T19:10:19.503Z"
+      "updatedAt": "2026-05-13T01:16:41.554Z"
     },
     "python-observability": {
       "source": "wshobson/agents",
@@ -733,7 +733,7 @@
       "skillPath": "plugins/python-development/skills/python-observability/SKILL.md",
       "skillFolderHash": "b3fa492cd6bc8d2215cb209b7fcae49f9704f3c5",
       "installedAt": "2026-05-11T19:10:19.504Z",
-      "updatedAt": "2026-05-11T19:10:19.504Z"
+      "updatedAt": "2026-05-13T01:16:41.555Z"
     },
     "python-packaging": {
       "source": "wshobson/agents",
@@ -742,7 +742,7 @@
       "skillPath": "plugins/python-development/skills/python-packaging/SKILL.md",
       "skillFolderHash": "b7e32fe9db6e4d089f1102388ff2879a90f79c04",
       "installedAt": "2026-05-11T19:10:19.506Z",
-      "updatedAt": "2026-05-11T19:10:19.506Z"
+      "updatedAt": "2026-05-13T01:16:41.556Z"
     },
     "python-performance-optimization": {
       "source": "wshobson/agents",
@@ -751,7 +751,7 @@
       "skillPath": "plugins/python-development/skills/python-performance-optimization/SKILL.md",
       "skillFolderHash": "f0e64087a8f9685ef5d394b03aefa1dc0accd65a",
       "installedAt": "2026-05-11T19:10:19.508Z",
-      "updatedAt": "2026-05-11T19:10:19.508Z"
+      "updatedAt": "2026-05-13T01:16:41.557Z"
     },
     "python-project-structure": {
       "source": "wshobson/agents",
@@ -760,7 +760,7 @@
       "skillPath": "plugins/python-development/skills/python-project-structure/SKILL.md",
       "skillFolderHash": "70109b96fb8e73142730844acd8e6ffe125a2139",
       "installedAt": "2026-05-11T19:10:19.509Z",
-      "updatedAt": "2026-05-11T19:10:19.509Z"
+      "updatedAt": "2026-05-13T01:16:41.557Z"
     },
     "python-resilience": {
       "source": "wshobson/agents",
@@ -769,7 +769,7 @@
       "skillPath": "plugins/python-development/skills/python-resilience/SKILL.md",
       "skillFolderHash": "656b9d366a9a7676008233b13f3cd7eac0b20a16",
       "installedAt": "2026-05-11T19:10:19.510Z",
-      "updatedAt": "2026-05-11T19:10:19.510Z"
+      "updatedAt": "2026-05-13T01:16:41.558Z"
     },
     "python-resource-management": {
       "source": "wshobson/agents",
@@ -778,7 +778,7 @@
       "skillPath": "plugins/python-development/skills/python-resource-management/SKILL.md",
       "skillFolderHash": "ae87af5edcc71fe411e50fd62679f37e0ff08250",
       "installedAt": "2026-05-11T19:10:19.510Z",
-      "updatedAt": "2026-05-11T19:10:19.510Z"
+      "updatedAt": "2026-05-13T01:16:41.559Z"
     },
     "python-testing-patterns": {
       "source": "wshobson/agents",
@@ -787,7 +787,7 @@
       "skillPath": "plugins/python-development/skills/python-testing-patterns/SKILL.md",
       "skillFolderHash": "28ce19935b2b48708af69e47e7686936a249c08b",
       "installedAt": "2026-05-11T19:10:19.511Z",
-      "updatedAt": "2026-05-11T19:20:44.540Z"
+      "updatedAt": "2026-05-13T01:16:41.560Z"
     },
     "python-type-safety": {
       "source": "wshobson/agents",
@@ -796,7 +796,7 @@
       "skillPath": "plugins/python-development/skills/python-type-safety/SKILL.md",
       "skillFolderHash": "6bc30a129da124b9015a2adde4cda8f686bf24b8",
       "installedAt": "2026-05-11T19:10:19.512Z",
-      "updatedAt": "2026-05-11T19:10:19.512Z"
+      "updatedAt": "2026-05-13T01:16:41.560Z"
     },
     "async-python-patterns": {
       "source": "wshobson/agents",
@@ -805,7 +805,7 @@
       "skillPath": "plugins/python-development/skills/async-python-patterns/SKILL.md",
       "skillFolderHash": "0a3bbf201d38ac29d14b38b1b3417f73bddc7c24",
       "installedAt": "2026-05-11T19:10:19.512Z",
-      "updatedAt": "2026-05-11T19:10:19.512Z"
+      "updatedAt": "2026-05-13T01:16:41.542Z"
     },
     "uv-package-manager": {
       "source": "wshobson/agents",
