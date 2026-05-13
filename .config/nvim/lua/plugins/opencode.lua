@@ -1,6 +1,7 @@
 return {
   "nickjvandyke/opencode.nvim",
   version = "*", -- Latest stable release
+  lazy = false,
   dependencies = {
     {
       -- `snacks.nvim` integration is recommended, but optional
