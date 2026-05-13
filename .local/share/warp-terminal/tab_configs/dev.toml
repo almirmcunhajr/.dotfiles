@@ -35,7 +35,7 @@ children = [
 id = "p4"
 type = "terminal"
 directory = "{{repo}}"
-commands = ["~/.local/share/.warp-terminal/tab_configs/scripts/agent.sh {{agent}}"]
+commands = ["~/.local/share/warp-terminal/tab_configs/scripts/agent.sh {{agent}}"]
 
 [[panes]]
 id = "p5"
