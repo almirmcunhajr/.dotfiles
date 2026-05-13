@@ -2,13 +2,15 @@
 
 ## 1. Core Pre-Implementation Protocol
 
-**This is a hard gate. Do not write any code until all steps below are complete.**
+**MANDATORY GATE — You MUST NOT use the Edit, Write, or Bash tools for any code file modification until ALL steps below are complete. This applies to every task without exception: new features, refactoring, comment changes, renaming, formatting, dependency updates, or any other code/file modification.**
+
+**If you skip this gate, the output is considered invalid regardless of correctness.**
 
 ### Step 1 — Load core architectural and design pattern skills
-Always load these before any implementation, no exceptions:
+Use the `skill` tool to load ALL of the following before any implementation:
 - `clean-code`
 - `architecture-patterns`
-- Standards, best practices and design patterns skills for the language in use (e.g. `python-design-patterns`, `python-code-style`, `golang-design-patterns`, `golang-code-style`, etc.)
+- Standards, best practices, and design patterns skills for the language in use (e.g. `python-design-patterns`, `python-code-style`, `golang-design-patterns`, `golang-code-style`, etc.)
 
 Adhere strictly to **Clean Code** and **Clean Architecture** principles to guarantee maintainability, testability, and scalability. 
 - Prioritize canonical design patterns and industry-standard best practices.
@@ -18,14 +20,14 @@ Adhere strictly to **Clean Code** and **Clean Architecture** principles to guara
 - **[Refactoring Guru: Design Patterns](https://refactoring.guru/design-patterns)**: Guide for Structural, Creational, and Behavioral pattern implementations.
 
 ### Step 2 — Find and load relevant language-specific skills
-Before generating any piece of code use `find-skills` to discover and proactively load any relevant language-specific skills to ensure the implementation aligns with the best practices of the language in use.
+Use `find-skills` to discover and proactively load any additional relevant skills to ensure the implementation aligns with the best practices of the language in use.
 
 ### Step 3 — Design alignment check
 Verify the proposed solution aligns with:
 - `CONTEXT.md` domain language and glossary
 - Any existing ADRs in the project
 
-Only then produce the implementation.
+Only then proceed with the implementation.
 
 ## 2. Go Architecture Preferences: Hexagonal (Ports & Adapters)
 
