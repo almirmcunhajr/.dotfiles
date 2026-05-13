@@ -823,7 +823,7 @@
       "skillPath": "config/skills/deep-agents-core/SKILL.md",
       "skillFolderHash": "be5e4342f11f28b783009f56a21d003aa6152828",
       "installedAt": "2026-05-11T19:15:17.875Z",
-      "updatedAt": "2026-05-11T19:15:17.875Z"
+      "updatedAt": "2026-05-13T18:52:37.011Z"
     },
     "deep-agents-memory": {
       "source": "langchain-ai/langchain-skills",
@@ -832,7 +832,7 @@
       "skillPath": "config/skills/deep-agents-memory/SKILL.md",
       "skillFolderHash": "a0dc9fd8801a7ea74204724dddb5f432974049e2",
       "installedAt": "2026-05-11T19:15:17.878Z",
-      "updatedAt": "2026-05-11T19:15:17.878Z"
+      "updatedAt": "2026-05-13T18:52:37.014Z"
     },
     "deep-agents-orchestration": {
       "source": "langchain-ai/langchain-skills",
@@ -841,7 +841,7 @@
       "skillPath": "config/skills/deep-agents-orchestration/SKILL.md",
       "skillFolderHash": "b6859361918d91849fc1820a8ae3a9092df29497",
       "installedAt": "2026-05-11T19:15:17.881Z",
-      "updatedAt": "2026-05-11T19:15:17.881Z"
+      "updatedAt": "2026-05-13T18:52:37.018Z"
     },
     "framework-selection": {
       "source": "langchain-ai/langchain-skills",
@@ -850,7 +850,7 @@
       "skillPath": "config/skills/framework-selection/SKILL.md",
       "skillFolderHash": "bd727c0dae71a11ccd8a16ddeb9aedf631507c84",
       "installedAt": "2026-05-11T19:15:17.885Z",
-      "updatedAt": "2026-05-11T19:15:17.885Z"
+      "updatedAt": "2026-05-13T18:52:37.018Z"
     },
     "langchain-dependencies": {
       "source": "langchain-ai/langchain-skills",
@@ -859,7 +859,7 @@
       "skillPath": "config/skills/langchain-dependencies/SKILL.md",
       "skillFolderHash": "9c4c1d01c39a24598e9bed0e54d1ace4dc1dc69e",
       "installedAt": "2026-05-11T19:15:17.887Z",
-      "updatedAt": "2026-05-11T19:15:17.887Z"
+      "updatedAt": "2026-05-13T18:52:37.019Z"
     },
     "langchain-fundamentals": {
       "source": "langchain-ai/langchain-skills",
@@ -868,7 +868,7 @@
       "skillPath": "config/skills/langchain-fundamentals/SKILL.md",
       "skillFolderHash": "51fa1785f7a78b5e573244bbc4e954a0f652f4bc",
       "installedAt": "2026-05-11T19:15:17.888Z",
-      "updatedAt": "2026-05-11T19:15:17.888Z"
+      "updatedAt": "2026-05-13T18:52:37.019Z"
     },
     "langchain-middleware": {
       "source": "langchain-ai/langchain-skills",
@@ -877,7 +877,7 @@
       "skillPath": "config/skills/langchain-middleware/SKILL.md",
       "skillFolderHash": "5b2e3029689b6ca7473480887aedc456ac5c56bf",
       "installedAt": "2026-05-11T19:15:17.890Z",
-      "updatedAt": "2026-05-11T19:15:17.890Z"
+      "updatedAt": "2026-05-13T18:52:37.020Z"
     },
     "langchain-rag": {
       "source": "langchain-ai/langchain-skills",
@@ -886,7 +886,7 @@
       "skillPath": "config/skills/langchain-rag/SKILL.md",
       "skillFolderHash": "98e80d4173342f8d1f7cc92f74dc8d54655e4b71",
       "installedAt": "2026-05-11T19:15:17.891Z",
-      "updatedAt": "2026-05-11T19:15:17.891Z"
+      "updatedAt": "2026-05-13T18:52:37.020Z"
     },
     "langgraph-fundamentals": {
       "source": "langchain-ai/langchain-skills",
@@ -895,7 +895,7 @@
       "skillPath": "config/skills/langgraph-fundamentals/SKILL.md",
       "skillFolderHash": "cd6cd8753c5718292cf3fa060707a6f3f75aa1c6",
       "installedAt": "2026-05-11T19:15:17.892Z",
-      "updatedAt": "2026-05-11T19:15:17.892Z"
+      "updatedAt": "2026-05-13T18:52:37.020Z"
     },
     "langgraph-human-in-the-loop": {
       "source": "langchain-ai/langchain-skills",
@@ -904,7 +904,7 @@
       "skillPath": "config/skills/langgraph-human-in-the-loop/SKILL.md",
       "skillFolderHash": "84a3c1d5547c54ef8c9e1cf0f834497e26c2c3cb",
       "installedAt": "2026-05-11T19:15:17.897Z",
-      "updatedAt": "2026-05-11T19:15:17.897Z"
+      "updatedAt": "2026-05-13T18:52:37.021Z"
     },
     "langgraph-persistence": {
       "source": "langchain-ai/langchain-skills",
@@ -913,7 +913,7 @@
       "skillPath": "config/skills/langgraph-persistence/SKILL.md",
       "skillFolderHash": "193624dbb118fc785d7fbed54cfa3d9a042c6f48",
       "installedAt": "2026-05-11T19:15:17.898Z",
-      "updatedAt": "2026-05-11T19:20:56.813Z"
+      "updatedAt": "2026-05-13T18:52:37.021Z"
     },
     "langgraph-docs": {
       "source": "langchain-ai/deepagents",
