@@ -1,19 +1,33 @@
 # Global Agent Instructions
 
 ## 1. Core Pre-Implementation Protocol
-- **Context Initialization:** Before beginning any implementation, proactively load all relevant skills (languages, frameworks, tools, and domain contexts). You must **ALWAYS** load the clean code, clean architecture, and design patterns and principles skills prior to any implementation.
-- **Design Alignment:** Ensure the proposed solution aligns with the established internal logic, clean code principles, and canonical architectural patterns before generating code.
 
-## 2. Code Design & Architecture Standards
+**This is a hard gate. Do not write any code until all steps below are complete.**
+
+### Step 1 — Load core architectural and design pattern skills
+Always load these before any implementation, no exceptions:
+- `clean-code`
+- `architecture-patterns`
+- Standards, best practices and design patterns skills for the language in use (e.g. `python-design-patterns`, `python-code-style`, `golang-design-patterns`, `golang-code-style`, etc.)
+
 Adhere strictly to **Clean Code** and **Clean Architecture** principles to guarantee maintainability, testability, and scalability. 
-
 - Prioritize canonical design patterns and industry-standard best practices.
 - Avoid over-engineering; select the most straightforward pattern that satisfies the architectural and business requirements.
 
-### Technical References
+**Technical References**
 - **[Refactoring Guru: Design Patterns](https://refactoring.guru/design-patterns)**: Guide for Structural, Creational, and Behavioral pattern implementations.
 
-## 3. Go Architecture Preferences: Hexagonal (Ports & Adapters)
+### Step 2 — Find and load relevant language-specific skills
+Before generating any piece of code use `find-skills` to discover and proactively load any relevant language-specific skills to ensure the implementation aligns with the best practices of the language in use.
+
+### Step 3 — Design alignment check
+Verify the proposed solution aligns with:
+- `CONTEXT.md` domain language and glossary
+- Any existing ADRs in the project
+
+Only then produce the implementation.
+
+## 2. Go Architecture Preferences: Hexagonal (Ports & Adapters)
 
 Go applications must strictly follow the Hexagonal Architecture pattern. 
 
@@ -32,23 +46,3 @@ internal/
 ### Technical References
 - [Effective Go](https://go.dev/doc/effective_go): Canonical guide for writing idiomatic, standard-compliant Go code.
 
-## 4. Generator and Critic Multi-Agent Pattern
-
-When generating high-quality, reliable output, apply the **Generator and Critic** pattern by separating content creation from content validation.
-
-- **Generator**: Produces the initial draft (code, content, configuration, etc.).
-- **Critic**: Reviews the draft against specific, hard-coded criteria or logical checks (e.g., syntax correctness, compliance rules, architectural standards).
-
-### Conditional Loop
-
-1. The Generator produces a draft.
-2. The Critic reviews it against defined criteria.
-3. **If the review passes**, the loop breaks and the content is finalized.
-4. **If the review fails**, specific feedback is routed back to the Generator to produce a compliant draft.
-5. Repeat until the Critic approves.
-
-### When to Apply
-
-- Code generation that needs syntax or correctness checking.
-- Content creation requiring compliance or standards review.
-- Any output where a second validation pass materially improves quality and reliability.
