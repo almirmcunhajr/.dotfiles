@@ -46,4 +46,4 @@ export PATH="$PATH:$HOME/development/flutter/bin"
 export PATH="$HOME/.local/bin:$PATH"
 
 # opencode
-export PATH=/Users/almir.cunha/.opencode/bin:$PATH
+export PATH="$HOME/.opencode/bin:$PATH"
