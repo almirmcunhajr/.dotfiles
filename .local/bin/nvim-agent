@@ -4,7 +4,7 @@ AGENT=$1
 
 case $AGENT in
   "claude")
-    claude
+    claude --ide
     ;;
   "gemini")
     gemini

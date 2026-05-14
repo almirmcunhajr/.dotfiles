@@ -6,5 +6,5 @@ windows:
       layout: main-vertical
       panes:
         - nvim .
-        - claude
+        - nvim-agent <%= @args[1] %>
         - 

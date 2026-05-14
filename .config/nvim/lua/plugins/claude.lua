@@ -3,6 +3,12 @@ return {
   dependencies = { "folke/snacks.nvim" },
   lazy = false,
   config = true,
+  opts = {
+    terminal = {
+      provider = "none",
+    },
+    auto_start = true,
+  },
   keys = {
     { "<leader>a", nil, desc = "AI/Claude Code" },
     { "<leader>ac", "<cmd>ClaudeCode<cr>", desc = "Toggle Claude" },

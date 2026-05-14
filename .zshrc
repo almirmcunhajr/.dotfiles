@@ -10,8 +10,7 @@ fi
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
 
 # Aliases
-alias txp='tmuxinator start project'
-alias txw='tmuxinator start work'
+alias txo='tmuxinator start dev'
 alias dotfiles="/usr/bin/git --git-dir=\"$HOME/.dotfiles/\" --work-tree=\"$HOME\""
 
 # Editor
