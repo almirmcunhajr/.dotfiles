@@ -4,10 +4,10 @@
 
 1. **Read the codebase** to understand the existing structure, dependencies, and patterns.
 2. **Load foundational skills**: `clean-code`, `architecture-patterns`, and the language's foundational skills from the table.
-3. **Enter plan mode** and:
-   - Break the task into implementation concerns.
-   - For each concern, consult the Skill Lookup Table and list every skill to load.
-4. **Load the identified skills**, refine the plan based on what they prescribe, then exit plan mode and implement.
+3. **Enter plan mode**. Throughout the plan, as each concern is identified:
+   1. Consult the Skill Lookup Table and list every skill to load for that concern.
+   2. Load those skills before conceiving any implementation for that concern.
+   This is an iterative process — new concerns may emerge at any stage of the plan and must trigger a new skill-loading pass.
 
 ## Skill Lookup Table
 
