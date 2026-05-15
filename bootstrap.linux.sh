@@ -31,7 +31,7 @@ rm /tmp/warp-terminal.deb
 
 # Install Podman
 echo "Installing Podman..."
-sudo apt install -y podman
+sudo apt install -y podman podman-compose
 
 # Change default shell to zsh
 if [ "$SHELL" != "$(which zsh)" ]; then
