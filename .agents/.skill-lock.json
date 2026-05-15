@@ -1200,6 +1200,15 @@
       "pluginName": "neo4j-skills",
       "installedAt": "2026-05-15T20:40:10.862Z",
       "updatedAt": "2026-05-15T20:40:10.862Z"
+    },
+    "prompt-builder": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/github/awesome-copilot.git",
+      "skillPath": "skills/prompt-builder/SKILL.md",
+      "skillFolderHash": "303a08be1132184366d4dc62abaa1ca2b9a41a21",
+      "installedAt": "2026-05-15T22:11:43.683Z",
+      "updatedAt": "2026-05-15T22:11:43.683Z"
     }
   },
   "dismissed": {
