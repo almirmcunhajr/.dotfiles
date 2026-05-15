@@ -102,6 +102,11 @@
 | Persisting graph state, conversation memory, or checkpointing | `langgraph-persistence` |
 | Pausing execution for human input or approval | `langgraph-human-in-the-loop` |
 
+## Implementation Principles
+
+- **Prefer stdlib and established packages over custom implementations**: Before writing something from scratch, check whether the standard library or a well-known package already solves it. Use what exists — don't reimplement what is already battle-tested.
+- **Lean toward the simplest code that works**: Among valid solutions, choose the simplest one. Complexity must justify itself.
+
 ## Go Directory Layout
 
 Use package-by-feature for domains; strictly separate infrastructure adapters.

@@ -32,6 +32,7 @@ rm /tmp/warp-terminal.deb
 # Install Podman
 echo "Installing Podman..."
 sudo apt install -y podman podman-compose
+echo 'unqualified-search-registries = ["docker.io"]' | sudo tee -a /etc/containers/registries.conf
 
 # Change default shell to zsh
 if [ "$SHELL" != "$(which zsh)" ]; then
