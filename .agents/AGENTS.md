@@ -106,6 +106,7 @@
 
 - **Prefer stdlib and established packages over custom implementations**: Before writing something from scratch, check whether the standard library or a well-known package already solves it. Use what exists — don't reimplement what is already battle-tested.
 - **Lean toward the simplest code that works**: Among valid solutions, choose the simplest one. Complexity must justify itself.
+- **Ground solutions in official documentation**: Before designing an approach, check the official docs of the language, framework, or library involved. Prefer patterns and APIs recommended by the maintainers over custom alternatives.
 
 ## Go Directory Layout
 
