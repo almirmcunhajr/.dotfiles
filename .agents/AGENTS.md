@@ -2,10 +2,10 @@
 
 ## Pre-Implementation Protocol
 
-1. **Read the codebase** to understand the existing structure, dependencies, and patterns.
-2. **Load foundational skills**: `clean-code`, `architecture-patterns`, and the language's foundational skills from the table.
+1. **Read the codebase** to understand the existing structure, dependencies, and patterns — skip if already done in this session.
+2. **Load foundational skills**: `clean-code`, `architecture-patterns`, and the language's foundational skills from the table — skip any already loaded in this session.
 3. **Identify implementation concerns** the task will require (e.g. configuration, persistence, error handling).
-4. **Load skills** for each concern using the Skill Lookup Table.
+4. **Load skills** for each concern using the Skill Lookup Table — skip any already loaded in this session.
 5. **Enter plan mode** and plan the implementation.
 
 ## Skill Lookup Table
@@ -101,6 +101,12 @@
 | Any LangGraph graph, nodes, edges, or state schemas | `langgraph-fundamentals` |
 | Persisting graph state, conversation memory, or checkpointing | `langgraph-persistence` |
 | Pausing execution for human input or approval | `langgraph-human-in-the-loop` |
+
+## Implementation Principles
+
+- **Prefer stdlib and established packages over custom implementations**: Before writing something from scratch, check whether the standard library or a well-known package already solves it. Use what exists — don't reimplement what is already battle-tested.
+- **Lean toward the simplest code that works**: Among valid solutions, choose the simplest one. Complexity must justify itself.
+- **Ground solutions in official documentation**: Before designing an approach, check the official docs of the language, framework, or library involved. Prefer patterns and APIs recommended by the maintainers over custom alternatives.
 
 ## Go Directory Layout
 
