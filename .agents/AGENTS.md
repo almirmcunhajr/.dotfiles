@@ -2,11 +2,14 @@
 
 ## Pre-Implementation Protocol
 
-1. **Read the codebase** to understand the existing structure, dependencies, and patterns — skip if already done in this session.
-2. **Load foundational skills**: `clean-code`, `architecture-patterns`, and the language's foundational skills from the table — skip any already loaded in this session.
-3. **Identify implementation concerns** the task will require (e.g. configuration, persistence, error handling).
-4. **Load skills** for each concern using the Skill Lookup Table — skip any already loaded in this session.
-5. **Enter plan mode** and plan the implementation.
+> **Skip any step already completed in this session** — do not re-read files or re-load skills already read or loaded.
+
+1. **Read design artifacts**: Before writing any code, scan the `docs/` directory (default location) for documents relevant to the task — ADRs, requirements, design docs, and architecture diagrams. Let these artifacts shape every implementation decision. If a `docs/` directory does not exist, check for equivalent paths (`documentation/`, `design/`, `arch/`) before proceeding without them.
+2. **Read the codebase** to understand the existing structure, dependencies, and patterns.
+3. **Load foundational skills**: `clean-code`, `architecture-patterns`, and the language's foundational skills from the table.
+4. **Identify implementation concerns** the task will require (e.g. configuration, persistence, error handling).
+5. **Load skills** for each concern using the Skill Lookup Table.
+6. **Enter plan mode** and plan the implementation.
 
 ## Skill Lookup Table
 
