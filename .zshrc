@@ -17,6 +17,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
+plugins=(kubectl)
+
 # OS-specific routing (after oh-my-zsh so compinit is already initialized)
 if [[ "$OSTYPE" == "darwin"* ]]; then
     [[ -f ~/.zshrc.mac ]] && source ~/.zshrc.mac
@@ -46,3 +48,6 @@ export PATH="$HOME/.local/bin:$PATH"
 
 # opencode
 export PATH="$HOME/.opencode/bin:$PATH"
+
+# ruby
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
