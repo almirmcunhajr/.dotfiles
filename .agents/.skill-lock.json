@@ -1228,6 +1228,15 @@
       "skillFolderHash": "b4af69e637f8f2bf620c55273680669ccca3e73c",
       "installedAt": "2026-05-17T04:25:24.438Z",
       "updatedAt": "2026-05-17T04:25:24.438Z"
+    },
+    "incognia-k8s": {
+      "source": "git@github.com:inloco/agent-skills.git",
+      "sourceType": "git",
+      "sourceUrl": "git@github.com:inloco/agent-skills.git",
+      "skillPath": "skills/incognia-k8s/SKILL.md",
+      "skillFolderHash": "c4db156f417ec2a560381f031550519cab1c5271dca70195ffcaa6aaa9b2e51d",
+      "installedAt": "2026-05-19T12:41:21.812Z",
+      "updatedAt": "2026-05-19T14:11:05.629Z"
     }
   },
   "dismissed": {
