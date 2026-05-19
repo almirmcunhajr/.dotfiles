@@ -1237,6 +1237,51 @@
       "skillFolderHash": "c4db156f417ec2a560381f031550519cab1c5271dca70195ffcaa6aaa9b2e51d",
       "installedAt": "2026-05-19T12:41:21.812Z",
       "updatedAt": "2026-05-19T14:11:05.629Z"
+    },
+    "refactor-module": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "terraform/module-generation/skills/refactor-module/SKILL.md",
+      "skillFolderHash": "f0abaa84ffa8642ee10bac6b6c1e7c32b72461f2",
+      "installedAt": "2026-05-19T19:48:50.640Z",
+      "updatedAt": "2026-05-19T19:48:50.640Z"
+    },
+    "terraform-search-import": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "terraform/code-generation/skills/terraform-search-import/SKILL.md",
+      "skillFolderHash": "ae8924c00f9d9a5da5feb30fe9e654577c10f8f0",
+      "installedAt": "2026-05-19T19:48:50.649Z",
+      "updatedAt": "2026-05-19T19:48:50.649Z"
+    },
+    "terraform-stacks": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "terraform/module-generation/skills/terraform-stacks/SKILL.md",
+      "skillFolderHash": "fe0a231fee7958eead13cd9562fbe530b6f568a0",
+      "installedAt": "2026-05-19T19:48:50.650Z",
+      "updatedAt": "2026-05-19T19:48:50.650Z"
+    },
+    "terraform-style-guide": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "terraform/code-generation/skills/terraform-style-guide/SKILL.md",
+      "skillFolderHash": "a6d14b66fa495d767536a6705856fe4553958e24",
+      "installedAt": "2026-05-19T19:48:50.650Z",
+      "updatedAt": "2026-05-19T19:48:50.650Z"
+    },
+    "terraform-test": {
+      "source": "hashicorp/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hashicorp/agent-skills.git",
+      "skillPath": "terraform/code-generation/skills/terraform-test/SKILL.md",
+      "skillFolderHash": "e24dc7d3c72d1208736b329434667d43c7bfcfa4",
+      "installedAt": "2026-05-19T19:48:50.651Z",
+      "updatedAt": "2026-05-19T19:48:50.651Z"
     }
   },
   "dismissed": {
