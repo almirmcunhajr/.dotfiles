@@ -1282,6 +1282,51 @@
       "skillFolderHash": "e24dc7d3c72d1208736b329434667d43c7bfcfa4",
       "installedAt": "2026-05-19T19:48:50.651Z",
       "updatedAt": "2026-05-19T19:48:50.651Z"
+    },
+    "ai-engineer": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/sickn33/antigravity-awesome-skills.git",
+      "skillPath": "skills/ai-engineer/SKILL.md",
+      "skillFolderHash": "4ab99c11b90b3f026d326a9a3e4374a32f9fc49e",
+      "installedAt": "2026-05-17T05:13:58.948Z",
+      "updatedAt": "2026-05-17T05:13:58.948Z"
+    },
+    "create-agentsmd": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/github/awesome-copilot.git",
+      "skillPath": "skills/create-agentsmd/SKILL.md",
+      "skillFolderHash": "290ab8ae85ba8695e9bceb674e74177e76f8633d",
+      "installedAt": "2026-05-17T05:21:15.137Z",
+      "updatedAt": "2026-05-17T05:21:15.137Z"
+    },
+    "refactor": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/github/awesome-copilot.git",
+      "skillPath": "skills/refactor/SKILL.md",
+      "skillFolderHash": "01cfb6a412faf9d680880cc3f631c419121a9916",
+      "installedAt": "2026-05-17T05:21:31.229Z",
+      "updatedAt": "2026-05-17T05:21:31.229Z"
+    },
+    "design-system": {
+      "source": "anthropics/knowledge-work-plugins",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/knowledge-work-plugins.git",
+      "skillPath": "design/skills/design-system/SKILL.md",
+      "skillFolderHash": "083f8c4110389572da1e46b769740beb31935609",
+      "installedAt": "2026-05-18T01:08:43.202Z",
+      "updatedAt": "2026-05-19T03:08:17.793Z"
+    },
+    "design-md": {
+      "source": "google-labs-code/stitch-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/google-labs-code/stitch-skills.git",
+      "skillPath": "plugins/stitch-utilities/skills/design-md/SKILL.md",
+      "skillFolderHash": "0a84781f35accede7cf373a4129d93bfb7651930",
+      "installedAt": "2026-05-18T22:55:31.679Z",
+      "updatedAt": "2026-05-18T22:55:31.679Z"
     }
   },
   "dismissed": {
