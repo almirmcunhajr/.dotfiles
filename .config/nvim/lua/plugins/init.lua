@@ -13,14 +13,6 @@ return {
     end,
   },
 
-  {
-    "mfussenegger/nvim-lint",
-    event = { "BufReadPre", "BufNewFile" },
-    config = function()
-      require "configs.lint"
-    end,
-  },
-
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
 

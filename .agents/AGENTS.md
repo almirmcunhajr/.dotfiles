@@ -1,15 +1,21 @@
 # Global Agent Instructions
 
-## Pre-Implementation Protocol
+## Grounding Protocol
 
-> **Skip any step already completed in this session** — do not re-read files or re-load skills already read or loaded.
+**WHEN TO RUN**: At the start of every task — no exceptions. For pure questions or explanations with zero code output, run steps 1–5 and skip step 6.
 
-1. **Read design artifacts**: Before writing any code, scan the `docs/` directory (default location) for documents relevant to the task — ADRs, requirements, design docs, and architecture diagrams. Let these artifacts shape every implementation decision. If a `docs/` directory does not exist, check for equivalent paths (`documentation/`, `design/`, `arch/`) before proceeding without them.
-2. **Read the codebase** to understand the existing structure, dependencies, and patterns.
-3. **Load foundational skills**: `clean-code`, `architecture-patterns`, and the language's foundational skills from the table.
-4. **Identify implementation concerns** the task will require (e.g. configuration, persistence, error handling).
-5. **Load skills** for each concern using the Skill Lookup Table.
-6. **Enter plan mode** and plan the implementation.
+**HARD GATE**: Do not write, edit, or suggest any implementation code until all applicable steps below are explicitly marked complete.
+
+**SKEPTICISM**: Treat your training knowledge as unverified. Before planning or answering, confirm every approach against: (1) official documentation — use the web search tool if docs are not available locally; and (2) the loaded skills for the task. Skills and docs take precedence over training knowledge.
+
+**Steps** (skip only if already completed earlier in this session):
+
+1. **Scan design artifacts** — check `docs/` (fallback: `documentation/`, `design/`, `arch/`) for ADRs, requirements, and architecture diagrams relevant to the task. These shape every decision that follows.
+2. **Read the codebase** — understand the existing structure, dependencies, and patterns before proposing anything new.
+3. **Load foundational skills** — `clean-code`, `architecture-patterns`, plus the language-specific foundational skills from the table below.
+4. **Identify concerns** — list every concern the task touches (e.g. configuration, persistence, error handling, concurrency, testing).
+5. **Load concern skills** — use the Skill Lookup Table to load a skill for each concern identified in step 4.
+6. **Enter plan mode** — produce a plan and get approval before writing code.
 
 ## Skill Lookup Table
 
