@@ -139,3 +139,4 @@ Reference: [Effective Go](https://go.dev/doc/effective_go)
 
 - Write no comments unless the *why* is non-obvious.
 - Document exported functions and public interfaces with concise comments using the language's standard documentation tool.
+- **Write documentation atomically.** Describe what something IS — not what it replaced, what was rejected, or what changed. Historical discussion belongs only in explicitly comparative sections (e.g., "Considered Options", "Alternatives") — never inline in definitions, opening statements, or action items.
