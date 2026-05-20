@@ -19,6 +19,8 @@
 
 ## Skill Lookup Table
 
+Referenced in Grounding Protocol step 5. For each concern identified in step 4, find the matching row(s) and load all listed skills before proceeding.
+
 ### Any language
 
 | If the task will involve… | Load upfront |
@@ -111,16 +113,16 @@
 | Persisting graph state, conversation memory, or checkpointing | `langgraph-persistence` |
 | Pausing execution for human input or approval | `langgraph-human-in-the-loop` |
 
-## Implementation Principles
+## Implementation Rules
 
-- **Prefer stdlib and established packages over custom implementations**: Before writing something from scratch, check whether the standard library or a well-known package already solves it. Use what exists — don't reimplement what is already battle-tested.
-- **Lean toward the simplest code that works**: Among valid solutions, choose the simplest one. Complexity must justify itself.
-- **Ground solutions in official documentation**: Before designing an approach, check the official docs of the language, framework, or library involved. Prefer patterns and APIs recommended by the maintainers over custom alternatives.
-- **Challenge requests that conflict with or are missing from docs**: When the user asks for an implementation that contradicts documented decisions or addresses something not yet covered by them, pause and: (1) ask clarifying questions to understand the intent and context, (2) explain the implications — what existing decisions it conflicts with or what gaps it exposes, and (3) suggest whether to extend or modify the docs to capture the new information before or alongside the implementation.
+- **Use what already exists.** Before writing anything from scratch, verify that stdlib or an established package doesn't solve it. Do not reimplement battle-tested solutions.
+- **Choose the simplest solution that works.** Complexity must justify itself — if it can't, simplify.
+- **Verify every approach in official docs.** Check maintainer-recommended patterns before designing. Prefer documented APIs over custom alternatives.
+- **Challenge requests that conflict with or are absent from docs.** When a request contradicts documented decisions or covers undocumented ground: (1) ask clarifying questions, (2) explain the conflict or gap, (3) suggest extending the docs before or alongside implementation.
 
-## Go Directory Layout
+## Go Project Structure
 
-Use package-by-feature for domains; strictly separate infrastructure adapters.
+Organize Go projects as follows. Package-by-feature for domains; strict separation of infrastructure adapters.
 
 ```
 cmd/<appname>/        # Entry point and DI
