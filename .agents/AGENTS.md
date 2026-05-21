@@ -12,7 +12,7 @@
 
 1. **Scan design artifacts** — check `docs/` (fallback: `documentation/`, `design/`, `arch/`) for ADRs, requirements, and architecture diagrams relevant to the task. These shape every decision that follows.
 2. **Read the codebase** — understand the existing structure, dependencies, and patterns before proposing anything new.
-3. **Load foundational skills** — `clean-code`, `architecture-patterns`, plus the language-specific foundational skills from the table below.
+3. **Load foundational skills** — `clean-code`, `architecture-patterns`, `tdd`, plus the language-specific foundational skills from the table below.
 4. **Identify concerns** — list every concern the task touches (e.g. configuration, persistence, error handling, concurrency, testing).
 5. **Load concern skills** — use the Skill Lookup Table to load a skill for each concern identified in step 4.
 6. **Enter plan mode** — produce a plan and get approval before writing code.
