@@ -14,7 +14,7 @@
 2. **Read the codebase** — understand the existing structure, dependencies, and patterns before proposing anything new.
 3. **Load foundational skills** — `clean-code`, `architecture-patterns`, `tdd`, plus the language-specific foundational skills from the table below.
 4. **Identify concerns** — list every concern the task touches (e.g. configuration, persistence, error handling, concurrency, testing).
-5. **Load concern skills** — use the Skill Lookup Table to load a skill for each concern identified in step 4.
+5. **Load concern skills** — use the Skill Lookup Table to load a skill for each concern identified in step 4. For any concern the table does not cover, scan the available skills list and load any whose name or description matches the concern before proceeding.
 6. **Enter plan mode** — produce a plan and get approval before writing code.
 
 ## Skill Lookup Table

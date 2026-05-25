@@ -1,1 +1,1 @@
-/Users/almir.cunha/.agents/AGENTS.md
+../.agents/AGENTS.md
