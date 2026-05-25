@@ -9,8 +9,8 @@ sudo add-apt-repository -y ppa:neovim-ppa/unstable
 sudo apt update
 
 # Install tools
-echo "Installing tools: zsh, nvim, tmux, tmuxinator, wget, curl..."
-sudo apt install -y zsh neovim tmux ruby-full wget curl
+echo "Installing tools"
+sudo apt install -y zsh neovim tmux ruby-full wget curl kubectx
 sudo gem install tmuxinator
 
 # Install GitHub CLI

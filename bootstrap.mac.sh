@@ -10,8 +10,8 @@ fi
 brew update
 
 # Install tools
-echo "Installing tools: zsh, nvim, tmux, tmuxinator, iterm2, opencode-desktop, gh, warp"
-brew install zsh neovim tmux tmuxinator gh
+echo "Installing tools"
+brew install zsh neovim tmux tmuxinator gh kubectx
 brew install --cask iterm2 opencode-desktop warp
 
 # Create compatibility symlinks for XDG migration

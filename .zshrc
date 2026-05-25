@@ -14,10 +14,8 @@ export VISUAL="nvim"
 # Oh My Zsh
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="powerlevel10k/powerlevel10k"
-plugins=(git)
+plugins=(git kubectl aws)
 source $ZSH/oh-my-zsh.sh
-
-plugins=(kubectl)
 
 # OS-specific routing (after oh-my-zsh so compinit is already initialized)
 if [[ "$OSTYPE" == "darwin"* ]]; then
