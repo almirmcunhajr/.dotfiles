@@ -17,6 +17,12 @@
 5. **Load concern skills** — use the Skill Lookup Table to load a skill for each concern identified in step 4. For any concern the table does not cover, scan the available skills list and load any whose name or description matches the concern before proceeding.
 6. **Enter plan mode** — produce a plan and get approval before writing code.
 
+## General Coding Guidelines
+
+- Write no comments unless the *why* is non-obvious.
+- Document exported functions and public interfaces with concise comments using the language's standard documentation tool.
+- **Write documentation atomically.** Describe what something IS — not what it replaced, what was rejected, or what changed. Historical discussion belongs only in explicitly comparative sections (e.g., "Considered Options", "Alternatives") — never inline in definitions, opening statements, or action items.
+
 ## Skill Lookup Table
 
 Referenced in Grounding Protocol step 5. For each concern identified in step 4, find the matching row(s) and load all listed skills before proceeding.
@@ -120,6 +126,28 @@ Referenced in Grounding Protocol step 5. For each concern identified in step 4, 
 - **Verify every approach in official docs.** Check maintainer-recommended patterns before designing. Prefer documented APIs over custom alternatives.
 - **Challenge requests that conflict with or are absent from docs.** When a request contradicts documented decisions or covers undocumented ground: (1) ask clarifying questions, (2) explain the conflict or gap, (3) suggest extending the docs before or alongside implementation.
 
+## Go Dependency Wiring
+
+Wire dependencies using a `DependencyContainer` with per-field lazy singleton getters. Each getter owns one field and self-initializes on first call.
+
+**Getter shape — always:**
+```go
+func (c *DependencyContainer) Foo() Foo {
+    if c.foo != nil {          // existence check is the FIRST statement
+        return c.foo
+    }
+    c.foo = newFoo(c.Bar())    // upstream deps called inline, not pre-captured
+    return c.foo
+}
+```
+
+Rules:
+- The nil check and early return are the **first two lines** of every getter — no locking, no dep acquisition, no anything before them.
+- No mutex. Startup wiring is sequential; concurrency primitives add noise without value for code that never runs concurrently.
+- `sync.Once` is reserved for the container singleton itself — not for individual fields.
+- One-time application startup code (server construction, listener setup, runtime config) belongs in `main`, not in the container. The container holds reusable dependencies; `main` owns one-time setup.
+- No DI frameworks (Wire, FX, samber/do, etc.) — manual constructor injection only.
+
 ## Go Project Structure
 
 Organize Go projects as follows. Package-by-feature for domains; strict separation of infrastructure adapters.
@@ -135,8 +163,3 @@ internal/
 
 Reference: [Effective Go](https://go.dev/doc/effective_go)
 
-## Comments and Documentation
-
-- Write no comments unless the *why* is non-obvious.
-- Document exported functions and public interfaces with concise comments using the language's standard documentation tool.
-- **Write documentation atomically.** Describe what something IS — not what it replaced, what was rejected, or what changed. Historical discussion belongs only in explicitly comparative sections (e.g., "Considered Options", "Alternatives") — never inline in definitions, opening statements, or action items.
