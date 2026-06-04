@@ -69,6 +69,12 @@ if ! command -v gemini &> /dev/null; then
   npm install -g @google/gemini-cli
 fi
 
+# Install Codex CLI
+if ! command -v codex &> /dev/null; then
+  echo "Installing Codex CLI"
+  curl -fsSL https://chatgpt.com/codex/install.sh | sh
+fi
+
 # Install superpowers
 claude plugins marketplace add obra/superpowers-marketplace
 claude plugins install superpowers@superpowers-marketplace
