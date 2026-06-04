@@ -6,10 +6,13 @@ case $AGENT in
   "claude")
     claude --ide
     ;;
-  "gemini")
-    gemini
+  "agy")
+    agy
     ;;
   "opencode")
     opencode --port
+    ;;
+  "codex")
+    codex
     ;;
 esac
