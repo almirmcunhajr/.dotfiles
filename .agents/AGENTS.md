@@ -62,11 +62,15 @@ type DependencyContainer struct {
     bar Bar
 }
 
-func (c *DependencyContainer) Foo() Foo {
+func (c *DependencyContainer) Foo() (Foo, error) {
     if c.foo != nil {
-        return c.foo
+        return c.foo, nil
     }
-    c.foo = newFoo(c.Bar())
+    foo, err := newFoo(c.Bar())
+    if err != nil {
+        return nil, err
+    }
+    c.foo = foo
     return c.foo
 }
 ```
