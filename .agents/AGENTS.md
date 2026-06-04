@@ -53,22 +53,28 @@
 
 ## Go Dependency Wiring
 
-Wire dependencies using a `DependencyContainer` with per-field lazy singleton getters. Each getter owns one field and self-initializes on first call.
+Place the `DependencyContainer` struct and all its getter methods in `cmd/<appname>/wire.go`. Each getter is a method on `DependencyContainer` that lazily initializes and returns a single dependency.
 
 **Getter shape — always:**
 ```go
+type DependencyContainer struct {
+    foo Foo
+    bar Bar
+}
+
 func (c *DependencyContainer) Foo() Foo {
-    if c.foo != nil {          // existence check is the FIRST statement
+    if c.foo != nil {
         return c.foo
     }
-    c.foo = newFoo(c.Bar())    // upstream deps called inline, not pre-captured
+    c.foo = newFoo(c.Bar())
     return c.foo
 }
 ```
 
 Rules:
+- The `DependencyContainer` struct and every getter method live in `cmd/<appname>/wire.go`.
 - The nil check and early return are the **first two lines** of every getter.
-- One-time application startup code (server construction, listener setup, runtime config) belongs in `main`, not in the container. The container holds reusable dependencies; `main` owns one-time setup.
+- One-time application startup code (server construction, listener setup, runtime config) belongs in `main.go`, not in the container. The container holds reusable dependencies; `main` owns one-time setup.
 - No DI frameworks (Wire, FX, samber/do, etc.) — manual constructor injection only.
 
 ## Go Project Structure
@@ -76,7 +82,9 @@ Rules:
 Organize Go projects as follows. Package-by-feature for domains; strict separation of infrastructure adapters.
 
 ```
-cmd/<appname>/        # Entry point and DI
+cmd/<appname>/
+  main.go             # Entry point; one-time startup code
+  wire.go             # DependencyContainer struct and all getters
 internal/
   config/             # Environment-based config
   <feature>/          # Domain logic, entities, interfaces
