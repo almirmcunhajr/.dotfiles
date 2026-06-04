@@ -13,6 +13,12 @@ case "$OS" in
     *)          echo "Unknown OS: $OS"; exit 1 ;;
 esac
 
+# Install Antigravity
+if ! command -v agy &> /dev/null; then
+  echo "Installing Antigravity"
+  curl -fsSL https://antigravity.google/cli/install.sh | bash
+fi
+
 # Install uv
 if ! command -v uv &> /dev/null; then
   echo "Installing uv"
@@ -62,5 +68,9 @@ if ! command -v gemini &> /dev/null; then
   echo "Installing gemini-cli"
   npm install -g @google/gemini-cli
 fi
+
+# Install superpowers
+claude plugins marketplace add obra/superpowers-marketplace
+claude plugins install superpowers@superpowers-marketplace
 
 echo "Bootstrap completed"
