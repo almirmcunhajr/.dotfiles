@@ -1399,6 +1399,15 @@
       "skillFolderHash": "016d8040a3f91c8360b1003e74fbf29f34c283f5",
       "installedAt": "2026-05-22T15:52:25.598Z",
       "updatedAt": "2026-05-22T15:52:25.598Z"
+    },
+    "jupyter-notebook": {
+      "source": "openai/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/openai/skills.git",
+      "skillPath": "skills/.curated/jupyter-notebook/SKILL.md",
+      "skillFolderHash": "ed23a98404260af659ef6bae9cb734bcfb0ca6c2",
+      "installedAt": "2026-05-29T15:10:08.676Z",
+      "updatedAt": "2026-05-29T15:10:08.676Z"
     }
   },
   "dismissed": {
