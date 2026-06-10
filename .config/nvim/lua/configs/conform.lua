@@ -3,18 +3,18 @@ local options = {
     lua = { "stylua" },
     go = { "goimports" },
     python = { "ruff" },
-    terraform = { "terraform_fmt" },
-    tf = { "terraform_fmt" },
-    ["terraform-vars"] = { "terraform_fmt" }
+    terraform = { "terraform" },
+    tf = { "terraform" },
+    ["terraform-vars"] = { "terraform" }
     -- css = { "prettier" },
     -- html = { "prettier" },
   },
 
-  -- format_on_save = {
-  --   -- These options will be passed to conform.format()
-  --   timeout_ms = 500,
-  --   lsp_fallback = true,
-  -- },
+  format_on_save = {
+    -- These options will be passed to conform.format()
+    timeout_ms = 500,
+    lsp_fallback = true,
+  },
 }
 
 return options
