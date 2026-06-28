@@ -1,8 +1,8 @@
 [agents]
-cloud_conversation_storage_enabled = false
+cloud_conversation_storage_enabled = true
 
 [agents.warp_agent]
-is_any_ai_enabled = false
+is_any_ai_enabled = true
 
 [agents.warp_agent.input]
 nld_in_terminal_enabled = false
@@ -21,7 +21,7 @@ agent_mode_coding_permissions = "always_allow_reading"
 is_settings_sync_enabled = true
 
 [privacy]
-telemetry_enabled = false
+telemetry_enabled = true
 crash_reporting_enabled = true
 custom_secret_regex_list = [
   { name = "IPv4 Address", pattern = '\b((25[0-5]|(2[0-4]|1\d|[1-9]|)\d)\.?\b){4}\b' },

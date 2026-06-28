@@ -26,11 +26,12 @@ This protocol is mandatory for every task. Complete all applicable steps before 
 
 ## General Coding Guidelines
 
-- **Code Clarity**: Avoid redundant comments. Explain **intent** (the "Why"), not **implementation** (the "What").
-- **Atomic Documentation**: Document public interfaces and exported functions using standard language tools. Describe what it **is**, not its history.
 - **Defensive Flow**: Use guard clauses to handle errors/preconditions early. Keep the "happy path" at the minimum indentation level.
 - **Standard-First**: Prefer standard libraries or established packages over custom reimplementations.
 - **Maintainer Patterns**: Strictly follow official documentation and maintainer-recommended patterns.
+- **Commit Discipline**: Never create a git commit unless the user explicitly asks. Complete all file changes first; only run `git commit` when directly requested.
+- **Comments Discipline**: Avoid redundant comments. Explain **intent** (the "Why"), not **implementation** (the "What").
+- **Atomic Documentation**: Document public interfaces and exported functions using standard language tools. Describe what it **is**, not its history.
 - **Doc Integrity**: Challenge requests that conflict with documented decisions. Propose updating documentation alongside implementation if gaps are found.
 
 ## Go Dependency Wiring

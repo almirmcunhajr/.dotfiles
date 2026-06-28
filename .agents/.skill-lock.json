@@ -1310,24 +1310,6 @@
       "installedAt": "2026-05-17T05:21:31.229Z",
       "updatedAt": "2026-05-17T05:21:31.229Z"
     },
-    "design-system": {
-      "source": "anthropics/knowledge-work-plugins",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/anthropics/knowledge-work-plugins.git",
-      "skillPath": "design/skills/design-system/SKILL.md",
-      "skillFolderHash": "083f8c4110389572da1e46b769740beb31935609",
-      "installedAt": "2026-05-18T01:08:43.202Z",
-      "updatedAt": "2026-05-19T03:08:17.793Z"
-    },
-    "design-md": {
-      "source": "google-labs-code/stitch-skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/google-labs-code/stitch-skills.git",
-      "skillPath": "plugins/stitch-utilities/skills/design-md/SKILL.md",
-      "skillFolderHash": "0a84781f35accede7cf373a4129d93bfb7651930",
-      "installedAt": "2026-05-18T22:55:31.679Z",
-      "updatedAt": "2026-05-18T22:55:31.679Z"
-    },
     "google-agents-cli-adk-code": {
       "source": "google/agents-cli",
       "sourceType": "github",
