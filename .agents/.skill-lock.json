@@ -1234,9 +1234,9 @@
       "sourceType": "git",
       "sourceUrl": "git@github.com:inloco/agent-skills.git",
       "skillPath": "skills/incognia-k8s/SKILL.md",
-      "skillFolderHash": "c4db156f417ec2a560381f031550519cab1c5271dca70195ffcaa6aaa9b2e51d",
+      "skillFolderHash": "1d54f41a6710aeae97d1ea9e14a7771309d7f2c5d1d92053b97688c9eee24dc1",
       "installedAt": "2026-05-19T12:41:21.812Z",
-      "updatedAt": "2026-05-19T14:11:05.629Z"
+      "updatedAt": "2026-06-11T12:47:36.964Z"
     },
     "refactor-module": {
       "source": "hashicorp/agent-skills",
@@ -1416,17 +1416,17 @@
   "lastSelectedAgents": [
     "amp",
     "antigravity",
+    "antigravity-cli",
     "cline",
     "codex",
     "cursor",
     "deepagents",
-    "dexto",
-    "firebender",
     "gemini-cli",
     "github-copilot",
-    "kimi-cli",
+    "kimi-code-cli",
     "opencode",
     "warp",
+    "zed",
     "claude-code"
   ]
 }

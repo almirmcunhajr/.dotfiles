@@ -6,6 +6,9 @@ fi
 # Aliases
 alias txo='tmuxinator start dev'
 alias dotfiles="/usr/bin/git --git-dir=\"$HOME/.dotfiles/\" --work-tree=\"$HOME\""
+ks() {
+    stern -l "app.kubernetes.io/name=$1"
+}
 
 # Editor
 export EDITOR="nvim"
@@ -51,3 +54,9 @@ export PATH="$HOME/.opencode/bin:$PATH"
 # ruby
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 
+
+# Added by dbt installer
+export PATH="$PATH:/Users/almir.cunha/.local/bin"
+
+# dbt aliases
+alias dbtf=/Users/almir.cunha/.local/bin/dbt

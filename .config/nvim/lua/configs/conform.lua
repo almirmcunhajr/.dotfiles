@@ -5,6 +5,7 @@ local options = {
     python = { "ruff" },
     terraform = { "terraform" },
     tf = { "terraform" },
+    ts = { "prettierd" },
     ["terraform-vars"] = { "terraform" }
     -- css = { "prettier" },
     -- html = { "prettier" },

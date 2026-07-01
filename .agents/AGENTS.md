@@ -30,6 +30,7 @@ This protocol is mandatory for every task. Complete all applicable steps before 
 - **Atomic Documentation**: Document public interfaces and exported functions using standard language tools. Describe what it **is**, not its history.
 - **Defensive Flow**: Use guard clauses to handle errors/preconditions early. Keep the "happy path" at the minimum indentation level.
 - **Standard-First**: Prefer standard libraries or established packages over custom reimplementations.
+- **Reuse Over Reinvention**: Prefer popular, well-maintained frameworks, libraries, SDKs, and tooling over custom-built replacements. Do not reinvent capabilities that are already solved well by established ecosystem standards unless there is a documented project-specific reason.
 - **Maintainer Patterns**: Strictly follow official documentation and maintainer-recommended patterns.
 - **Doc Integrity**: Challenge requests that conflict with documented decisions. Propose updating documentation alongside implementation if gaps are found.
 
@@ -73,5 +74,4 @@ internal/
 ```
 
 Reference: [Effective Go](https://go.dev/doc/effective_go)
-
 
