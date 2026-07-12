@@ -26,15 +26,15 @@ This protocol is mandatory for every task. Complete all applicable steps before 
 
 ## General Coding Guidelines
 
+- **Simplicity**: Write clear, modular, maintainable code that minimizes cognitive load. Favor the simplest solution that satisfies current requirements over speculative generality, extra layers, or cleverness — optimize for code that's easy to read, test, and change.
 - **Defensive Flow**: Use guard clauses to handle errors/preconditions early. Keep the "happy path" at the minimum indentation level.
-- **Standard-First**: Prefer standard libraries or established packages over custom reimplementations.
 - **Reuse Over Reinvention**: Prefer **industry-standard**, **well-maintained** frameworks, libraries, SDKs, and tooling over custom-built replacements. Do not reinvent capabilities that are already solved well by established ecosystem standards unless there is a documented project-specific reason.
 - **Maintainer Patterns**: Strictly follow official documentation and maintainer-recommended patterns.
 - **Commit Discipline**: Never create a git commit unless the user explicitly asks. Complete all file changes first; only run `git commit` when directly requested.
 - **Comments Discipline**: Avoid redundant comments. Explain **intent** (the "Why"), not **implementation** (the "What").
 - **Atomic Documentation**: Document public interfaces and exported functions using standard language tools. Describe what it **is**, not its history.
 - **Doc Integrity**: Challenge requests that conflict with documented decisions. Propose updating documentation alongside implementation if gaps are found.
-- **Future-Proof Port Parameters**: When a port method wraps an external system whose real capability surface is broader than what's used today (e.g., a vector database's query API exposes multiple independent filter/config dimensions, confirmed via its actual docs/SDK types), model the parameter as an extensible struct type owned by the port, not a narrow primitive tied only to the current use case — even if just one field is populated now. This avoids breaking the signature every time another dimension of that already-known capability gets used. This does **not** license speculative interfaces or abstractions for hypothetical consumers that don't exist — it applies narrowly to the parameter/return shape of a port that already has a concrete implementation and a real, already-verified underlying capability richer than what's currently used.
+- **Future-Proof Port Parameters**: If a port wraps an external system with a verified capability surface broader than today's use (confirmed via its actual docs/SDK types), model that parameter as an extensible struct owned by the port, not a narrow primitive — even if only one field is populated now. This applies only to ports with a concrete implementation and a confirmed richer capability; it's not license for speculative abstractions.
 
 ## Go Dependency Wiring
 
