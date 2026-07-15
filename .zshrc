@@ -5,7 +5,7 @@ fi
 
 # Aliases
 alias txo='tmuxinator start dev'
-alias dotfiles="/usr/bin/git --git-dir=\"$HOME/.dotfiles/\" --work-tree=\"$HOME\""
+alias df="/usr/bin/git --git-dir=\"$HOME/.dotfiles/\" --work-tree=\"$HOME\""
 ks() {
     stern -l "app.kubernetes.io/name=$1"
 }

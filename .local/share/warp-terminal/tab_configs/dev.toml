@@ -6,7 +6,7 @@ description = "Repository path"
 
 [params.agent]
 description = "Agent to run in the right pane"
-default = "opencode"
+default = "claude"
 
 [[panes]]
 id = "p1"
