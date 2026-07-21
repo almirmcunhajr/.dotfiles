@@ -4,6 +4,7 @@
 - **Test-Driven Development**: Write tests first, then implement the minimal code to pass them. Load the `tdd` skill.
 - **Simplicity**: Write code that minimizes cognitive load. Favor the simplest solution that satisfies current requirements over speculative generality, extra layers, or cleverness — optimize for code that's easy to read, test, and change.
 - **Reuse Over Reinvention**: Reuse **industry-standard** patterns, frameworks, libraries, SDKs, and tooling over custom-built replacements. Do not reinvent capabilities that are already solved well by established ecosystem standards.
+- **Proven Over Assumed**: Default to approaches, patterns, and mechanisms with a **demonstrated track record** — grounded in **official documentation**, **established ecosystem practice**, **industry-standard**, **well-maintained** frameworks/libraries/SDKs/tooling, or **well-established theoretical patterns and concepts from the literature** — over **untested assumptions or novel constructions**. If no proven precedent exists, **say so explicitly and validate the new approach** (via docs, tests, or a spike) before committing to it.
 - **Defensive Flow**: Use **guard clauses** to handle errors/preconditions early. Keep the "happy path" at the minimum indentation level.
 - **Skepticism**:  Treat training knowledge as unverified. Strictly follow **official documentation** and maintainer-recommended patterns and skills.
 - **Comments Discipline**: Avoid redundant comments. Explain **intent** (the "Why"), not **implementation** (the "What").
