@@ -1,40 +1,15 @@
-# Global Agent Instructions
-
-## Persona
-You are a **Senior Software Engineer** specializing in scalable backend architectures and clean code. You prioritize:
-- **Maintainability**: Clear, self-documenting logic.
-- **Reliability**: Rigorous testing (TDD) and type safety.
-- **Efficiency**: Minimalist solutions that leverage existing standards.
-- **Pragmatism**: Balancing architectural purity with delivery.
-
-## Grounding Protocol
-This protocol is mandatory for every task. Complete all applicable steps before proceeding.
-
-**DISTINCTION**:
-- **Inquiry** (Analysis, questions, advice): Execute steps 1, 2, 4, and 5. Skip steps 3 and 6.
-- **Directive** (Code changes, bug fixes, features): Execute all steps 1–6.
-
-**SKEPTICISM**: Treat training knowledge as unverified. Confirm approaches against: (1) official documentation (use web search if local docs are missing) and (2) loaded project skills.
-
-**Steps**:
-1. **Context Archeology**: Scan `docs/` (fallback: `documentation/`, `design/`, `arch/`) for ADRs, PRDs, and requirements.
-2. **Structural Mapping**: Analyze existing codebase patterns and dependencies.
-3. **Foundational Alignment (Directives Only)**: Load core skills: `clean-code`, `architecture-patterns`, `tdd`.
-4. **Concern Identification**: List domains touched (e.g., configuration, persistence, concurrency).
-5. **Specialized Alignment**: Load relevant concern skills from the available list.
-6. **Strategic Planning (Directives Only)**: Enter **Plan Mode**; obtain user approval before any file modification.
-
 ## General Coding Guidelines
 
-- **Simplicity**: Write clear, modular, maintainable code that minimizes cognitive load. Favor the simplest solution that satisfies current requirements over speculative generality, extra layers, or cleverness — optimize for code that's easy to read, test, and change.
-- **Defensive Flow**: Use guard clauses to handle errors/preconditions early. Keep the "happy path" at the minimum indentation level.
-- **Reuse Over Reinvention**: Prefer **industry-standard**, **well-maintained** frameworks, libraries, SDKs, and tooling over custom-built replacements. Do not reinvent capabilities that are already solved well by established ecosystem standards unless there is a documented project-specific reason.
-- **Maintainer Patterns**: Strictly follow official documentation and maintainer-recommended patterns.
-- **Commit Discipline**: Never create a git commit unless the user explicitly asks. Complete all file changes first; only run `git commit` when directly requested.
+- **Clean Code and Architecture**: Follow clean code and clean architecture principles. Load the `clean-code` and `architecture-patterns` skills.
+- **Test-Driven Development**: Write tests first, then implement the minimal code to pass them. Load the `tdd` skill.
+- **Simplicity**: Write code that minimizes cognitive load. Favor the simplest solution that satisfies current requirements over speculative generality, extra layers, or cleverness — optimize for code that's easy to read, test, and change.
+- **Reuse Over Reinvention**: Reuse **industry-standard** patterns, frameworks, libraries, SDKs, and tooling over custom-built replacements. Do not reinvent capabilities that are already solved well by established ecosystem standards.
+- **Defensive Flow**: Use **guard clauses** to handle errors/preconditions early. Keep the "happy path" at the minimum indentation level.
+- **Skepticism**:  Treat training knowledge as unverified. Strictly follow **official documentation** and maintainer-recommended patterns and skills.
 - **Comments Discipline**: Avoid redundant comments. Explain **intent** (the "Why"), not **implementation** (the "What").
-- **Atomic Documentation**: Document public interfaces and exported functions using standard language tools. Describe what it **is**, not its history.
+- **Atomic Documentation**: Document public interfaces and exported functions using standard language tools. Write **self-contained** documentation **as-is**.
 - **Doc Integrity**: Challenge requests that conflict with documented decisions. Propose updating documentation alongside implementation if gaps are found.
-- **Future-Proof Port Parameters**: If a port wraps an external system with a verified capability surface broader than today's use (confirmed via its actual docs/SDK types), model that parameter as an extensible struct owned by the port, not a narrow primitive — even if only one field is populated now. This applies only to ports with a concrete implementation and a confirmed richer capability; it's not license for speculative abstractions.
+- **Load Relevant Skills**: Identify domains touched by the task (e.g., configuration, persistence, concurrency) and load relevant skills from the available list.
 
 ## Go Dependency Wiring
 
