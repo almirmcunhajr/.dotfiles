@@ -1,6 +1,7 @@
 ## General Coding Guidelines
 
 - **Clean Code and Architecture**: Follow clean code and clean architecture principles. Load the `clean-code` and `architecture-patterns` skills.
+    - **Single Responsibility**: Each function, method, and class should have a single responsibility. "Functions should do one thing. They should do it well. They should do it only." - Robert C. Martin
 - **Test-Driven Development**: Write tests first, then implement the minimal code to pass them. Load the `tdd` skill.
 - **Simplicity**: Write code that minimizes cognitive load. Favor the simplest solution that satisfies current requirements over speculative generality, extra layers, or cleverness — optimize for code that's easy to read, test, and change.
 - **Reuse Over Reinvention**: Reuse **industry-standard** patterns, frameworks, libraries, SDKs, and tooling over custom-built replacements. Do not reinvent capabilities that are already solved well by established ecosystem standards.
