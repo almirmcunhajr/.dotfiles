@@ -37,6 +37,10 @@ func (c *DependencyContainer) Foo() (Foo, error) {
 - **Ownership**: `main.go` owns one-time startup (listeners, runtime config). `wire.go` owns reusable dependencies.
 - **No Frameworks**: Use manual constructor injection only.
 
+## Go Code Review
+
+When reviewing Go code, apply the guidance in the [Go Code Review Comments wiki](https://go.dev/wiki/CodeReviewComments) as the canonical source for style and idiom feedback.
+
 ## Go Project Structure
 
 Follow the **Package-by-Feature** pattern with strict adapter separation.
@@ -52,5 +56,7 @@ internal/
   <transport>/        # Inbound adapters (http, grpc, etc.)
 ```
 
-Reference: [Effective Go](https://go.dev/doc/effective_go)
+## Go Idiomatic Style
+
+When writing Go code, apply the guidance in [Effective Go](https://go.dev/doc/effective_go) as the canonical source for writing clear, idiomatic Go.
 
