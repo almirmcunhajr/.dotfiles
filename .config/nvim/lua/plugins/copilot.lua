@@ -6,5 +6,6 @@ return {
   end,
   config = function()
     vim.keymap.set("i", "<C-y>", 'copilot#Accept("")', { expr = true, replace_keycodes = false })
+    vim.keymap.set("i", "<M-f>", "<Plug>(copilot-accept-word)")
   end,
 }
