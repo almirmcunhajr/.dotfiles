@@ -15,4 +15,7 @@ case $AGENT in
   "codex")
     codex
     ;;
+  "agentbox")
+    agentbox $@ "$(basename "$PWD")"
+    ;;
 esac
