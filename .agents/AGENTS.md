@@ -13,6 +13,12 @@
 - **Doc Integrity**: Challenge requests that conflict with documented decisions. Propose updating documentation alongside implementation if gaps are found.
 - **Load Relevant Skills**: Identify domains touched by the task (e.g., configuration, persistence, concurrency) and load relevant skills from the available list.
 
+## Live Infrastructure Safety
+
+- **Never run live infrastructure commands.** The agent is not allowed to execute commands that can inspect, change, deploy to, or delete resources in live infrastructure.
+- This prohibition explicitly includes `kubectl`, AWS CLI commands such as `aws`, and equivalent commands for any cloud or production system.
+- Use local files, static configuration inspection, mocks, dry-run tooling that cannot contact live infrastructure, or documentation instead. If a live-infrastructure action is needed, stop and ask the user to perform it.
+
 ## Go Dependency Wiring
 
 Place the `DependencyContainer` struct and all its getter methods in `cmd/<appname>/wire.go`. Use lazy initialization.
@@ -59,4 +65,3 @@ internal/
 ## Go Idiomatic Style
 
 When writing Go code, apply the guidance in [Effective Go](https://go.dev/doc/effective_go) as the canonical source for writing clear, idiomatic Go.
-
