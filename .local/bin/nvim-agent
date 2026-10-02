@@ -10,7 +10,7 @@ case $AGENT in
     agy
     ;;
   "opencode")
-    opencode --port
+    opencode
     ;;
   "codex")
     codex
@@ -19,6 +19,6 @@ case $AGENT in
     agentbox $@ "$(basename "$PWD")"
     ;;
   *)
-    opencode --port 
+    opencode
     ;;
 esac

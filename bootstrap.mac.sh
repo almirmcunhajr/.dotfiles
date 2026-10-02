@@ -12,10 +12,5 @@ brew update
 # Install tools
 echo "Installing tools"
 brew install zsh neovim tmux tmuxinator gh kubectx
-brew install --cask iterm2 opencode-desktop warp
+brew install --cask iterm2 opencode-desktop
 
-# Create compatibility symlinks for XDG migration
-echo "Creating compatibility symlinks..."
-mkdir -p "$HOME/.warp"
-ln -sfn "$HOME/.config/warp-terminal/settings.toml" "$HOME/.warp/settings.toml"
-ln -sfn "$HOME/.local/share/warp-terminal/tab_configs" "$HOME/.warp/tab_configs"

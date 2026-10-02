@@ -75,8 +75,4 @@ if ! command -v codex &> /dev/null; then
   curl -fsSL https://chatgpt.com/codex/install.sh | sh
 fi
 
-# Install superpowers
-claude plugins marketplace add obra/superpowers-marketplace
-claude plugins install superpowers@superpowers-marketplace
-
 echo "Bootstrap completed"
