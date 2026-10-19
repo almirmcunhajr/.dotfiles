@@ -15,9 +15,9 @@
 
 ## Live Infrastructure Safety
 
-- **Never run live infrastructure commands.** The agent is not allowed to execute commands that can inspect, change, deploy to, or delete resources in live infrastructure.
+- **Never run live infrastructure CLI commands.** The agent is not allowed to execute CLI commands that can inspect, change, deploy to, or delete resources in live infrastructure.
 - This prohibition explicitly includes `kubectl`, AWS CLI commands such as `aws`, and equivalent commands for any cloud or production system.
-- Use local files, static configuration inspection, mocks, dry-run tooling that cannot contact live infrastructure, or documentation instead. If a live-infrastructure action is needed, stop and ask the user to perform it.
+- Use MCP, local files, static configuration inspection, mocks, dry-run tooling that cannot contact live infrastructure, or documentation instead. If a live-infrastructure action is needed, stop and ask the user to perform it.
 
 ## Go Dependency Wiring
 
@@ -65,3 +65,38 @@ internal/
 ## Go Idiomatic Style
 
 When writing Go code, apply the guidance in [Effective Go](https://go.dev/doc/effective_go) as the canonical source for writing clear, idiomatic Go.
+
+## Python Project Structure
+
+Follow PyPA's documented **src layout** and the **Package-by-Feature** pattern with strict adapter separation.
+
+```text
+pyproject.toml
+src/
+  <package_name>/
+    __init__.py
+    config/             # Environment-based configuration
+    logging/            # Application logging
+    <feature>/          # Feature logic and shared contracts
+    <provider>/         # Outbound integrations (postgres, redis, bedrock, etc.)
+    <transport>/        # Inbound transport integrations
+    entrypoints/        # Process startup, dependency wiring, request handlers
+tests/                  # Tests outside the import package
+```
+
+- **Import Package**: Use one application-specific top-level import package under `src/`, named in `snake_case`. Feature, provider, and transport directories are subpackages of that package.
+- **Packaging Reference**: Use [PyPA's src layout guidance](https://packaging.python.org/en/latest/discussions/src-layout-vs-flat-layout/) for source placement. The internal package organization above is our project convention.
+- **Package Boundaries**: Group feature logic and contracts by feature. Keep external framework, provider, and transport integrations in separate, explicitly named packages.
+- **Dependency Direction**: Integration packages may depend on feature contracts. Feature packages must remain independent of integrations and entrypoints.
+- **Consumer-Owned Interfaces**: Define `Protocol` interfaces alongside their consumers, including in an entrypoint when that is the consumer.
+- **Module Names**: Use descriptive `snake_case` names such as `invocation.py`, `support_agent.py`, and `browser_tools.py`. Name middleware modules with the `_middleware.py` suffix.
+- **Imports**: Use absolute imports rooted at `<package_name>`.
+- **Package Initialization**: Include `__init__.py` in regular packages. Keep directory nesting shallow and add packages only for cohesive responsibilities.
+
+## Python Dependency Wiring
+
+- **Composition Root**: Entrypoints own configuration loading, concrete dependency construction, and application startup.
+- **Constructor Injection**: Pass ready-to-use dependencies into feature and integration objects through their constructors.
+- **Tool Catalogs**: Discover tools and assemble the complete catalog at startup, then inject the concrete tool sequence into the agent. Tool-selection policy belongs in middleware.
+- **Resource Lifetimes**: Manage asynchronous resources with context managers. Use `AsyncExitStack` to compose resource-owning integrations and guarantee cleanup.
+- **Application Services**: Introduce a separate service or handler when it owns meaningful application orchestration. Keep payload parsing, runtime-context validation, and response serialization at the entrypoint boundary.

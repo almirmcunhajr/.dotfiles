@@ -60,3 +60,6 @@ export PATH="$PATH:/Users/almir.cunha/.local/bin"
 
 # dbt aliases
 alias dbtf=/Users/almir.cunha/.local/bin/dbt
+
+# Agentbox local binaries
+case ":$PATH:" in *":$HOME/.local/bin:"*) ;; *) PATH="$HOME/.local/bin:$PATH"; export PATH ;; esac
