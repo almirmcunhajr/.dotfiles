@@ -13,6 +13,12 @@
 - **Doc Integrity**: Challenge requests that conflict with documented decisions. Propose updating documentation alongside implementation if gaps are found.
 - **Load Relevant Skills**: Identify domains touched by the task (e.g., configuration, persistence, concurrency) and load relevant skills from the available list.
 
+## Commit Permission
+
+- **Never create, amend, or revert a commit without explicit user permission for the current changes.** Requests to edit, fix, review, or continue work do not grant commit permission.
+- Permission to commit earlier changes is not standing permission for subsequent changes. Keep edits uncommitted until the user authorizes committing them.
+- Push commits or update pull requests only when explicitly authorized. If authorization is unclear, ask before proceeding.
+
 ## Live Infrastructure Safety
 
 - **Never run live infrastructure CLI commands.** The agent is not allowed to execute CLI commands that can inspect, change, deploy to, or delete resources in live infrastructure.
